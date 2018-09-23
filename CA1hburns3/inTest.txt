@@ -1,0 +1,12 @@
+new
+John
+Smith
+11
+12
+Street
+Ville
+18271
+donate
+111
+view
+quit
