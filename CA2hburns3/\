@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <fstream>
+#include <algorithm>
+#include "Voter.h"
+using namespace std;
+
+	Voter::Voter(){
+		string LastName = "[empty]";
+		string FirstName= "[empty]";
+		string Userid = "[empty]";
+		string Password = "[empty]";
+		int Age = -1;
+		int StreetNumber = 0;
+		string StreetName = "[empty]";
+		string Town = "[empty]";
+		string ZipCode = "-----";
+		float AmountDonated = 0.0;
+	}
+	void Voter::EnterVoterMenu(){
+	string input = "";
+	while(input != "Logout"){
+		cout << "Enter Input: \n";
+		cin >> input;
+		if(input == "Update"){
+			cout <<"Updating voter information";
+			Update();
+			}
+		else if (input == "Passwd"){
+			cout <<"Setting new password";
+			
+			}
+		else if (input == "View"){
+			cout << "Viewing voter information";
+		}
+		else if (input == "Donate"){
+			cout << "donating to campaign";
+		}
+		else if (input == "Report"){
+			cout << "Reporting";
+		}
+		else if (input == "Logot"){
+			cout <<"Logging out";
+		}
+		else
+			cout <<"Enter Valid Input";
+		
+		}
+	}
+	void Voter::Update(){
+		string temp;
+		cout << "Current last name is " << this->LastName << ". Enter Last Name: ";
+		cin >> temp;
+		if( temp.size() < 1)
+			this->LastName = temp;
+		cout << "Current first name is " << this->FirstName << ". Enter First Name: ";
+		cin >> temp;
+		if( temp.size() < 1)
+			this->FirstName = temp;
+		cout << "Current age is " << this->Age << ". Enter Age: ";
+		cin >> this->Age;
+		cout <<"Current House Number is: " << this->StreetNumber << ". Enter House Number: ";
+		cin >> this->StreetNumber;
+		cout <<"Current Street Name is: " << StreetName << ". Enter Street Name: ";
+		cin.ignore();
+		getline(cin,StreetName);
+		cout <<"Current Town is: " << this->Town << ". Enter Town name";
+		cin.ignore();
+		getline(cin,this->Town);
+		cin >> Town;
+		cout <<"Current Zip Code is: "<< ZipCode << ". Enter new Zip Code";
+		this->ZipCode = updateZipCode();
+
+		
+	}
+	string Voter::updateZipCode(){
+		string zipCode = "1";
+		while(zipCode.length() != 5 || std::all_of(zipCode.begin(), ZipCode.end(), ::isdigit)){
+			cout << "Enter a ZipCode containing 5 alphanumeric digits";
+			cin >> zipCode;
+			if(zipCode == "\n")
+				return this->ZipCode;
+		}
+	}
+	string Voter::updateUserid(){
+		string new_userid = "[empty]";
+		int string_length = 0;
+		do{
+			cout << "input a new userID: ";
+			cin >> new_userid;
+			string_length = new_userid.length();
+			if(new_userid == "\n")
+				return this->Userid;
+		} while(string_length < 11 && string_length > 4 && std::all_of(new_userid.begin(), new_userid.end(), ::isdigit));
+		return new_userid;
+	}

@@ -1,14 +1,19 @@
 #include <stdio.h>
 #include <string>
 #include <iostream>
-
+#include "Voter.cpp"
 using namespace std;
 
 class VoterDB{
 	public:
 		string filename, user_id, password;	
-		Voter[] Voterlist;
-		VoterDB(filename, max_number_of_voters);
+		int max_voters;
+		Voter* Voterlist;
+		VoterDB(string filename, int max_number_of_voters);
 		bool LoggedIn(string user_id, string password);
-		
-	private:
+		void NewVoter();
+		void Report();
+		void Save();
+		void Load();
+		bool fileExists(const std::string& filename);
+};
