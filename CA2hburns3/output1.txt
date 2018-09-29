@@ -1,0 +1,25 @@
+Starting Function
+Num Voters: 0
+Database has been initiated
+Enter Input: choose from Login, New, Report, Save, Load, and Quit
+Enter a username.
+
+Current num voters: 0
+
+Current last name is [empty]. Enter Last Name: 
+Current first name is [empty]. Enter First Name: 
+Current age is -1. Enter Age: 
+Current House Number is: 0. Enter House Number: 
+Current Street Name is: [empty]. Enter Street Name: 
+Current Town is: [empty]. Enter Town name: 
+Current Zip Code is: -----. Enter new Zip Code: 
+Enter a ZipCode containing exactly 5 digits: Enter new password (must contain at least 5 characters, including 1 digit): 
+Enter new password again: 
+Enter Input: choose from Login, New, Report, Save, Load, and Quit
+Enter a username.
+
+Current num voters: 1
+
+Current last name is [empty]. Enter Last Name: 
+Current first name is [empty]. Enter First Name: 
+Current age is -1. Enter Age: 

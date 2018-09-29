@@ -1,3 +1,5 @@
+#ifndef VOTER_H
+#define VOTER_H
 #include <string>
 using namespace std;
 class Voter{
@@ -13,14 +15,17 @@ class Voter{
 		string ZipCode;
 		float AmountDonated;
 		Voter();
-		void EnterVoterMenu();
+		Voter(string& line);
+		bool EnterVoterMenu();
 		void Update();
 		string updateZipCode();
 		string updateUserid();
+		string setUserid(string UserID );
 		bool LoggedIn();
 		void Password();
 		void View();
 		void Donate(float amount);
+		void setNewPassword();
 		void Report();
-		string toString();
 };
+#endif

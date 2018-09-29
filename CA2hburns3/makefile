@@ -1,8 +1,8 @@
 CC = g++
-CC_FLAGS = -w
+CC_FLAGS = -Wall
  
 # File names
-EXEC = run
+EXEC = Voter
 SOURCES = $(wildcard *.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
  
