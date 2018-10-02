@@ -6,20 +6,22 @@
 #include "VoterDB.h"
 #include "Voter.h"
 
-//constructor to set the filename and dynamic array 
-VoterDB::VoterDB(std::string filename, int max_number_of_voters){
+//constructor to set the filename and array 
+VoterDB::VoterDB(std::string newfilename, int max_number_of_voters){
 	//set the name of the csv file		
-	this->filename = filename;
+	cout << "Starting Constructor" << endl;
+	this->starting_filename = newfilename;
 	this ->max_voters = max_number_of_voters;
 	this -> current_num_voters = 0;
 	load_file();
+	cout << "Loaded File" << endl;
 	//dynamically allocate the max
 	this->max_voters = max_number_of_voters;
 	VoterList = new Voter*[max_number_of_voters];
 	}
 VoterDB::VoterDB(int max_number_of_voters){
 	//set the name of the csv file		
-	this->filename = "[empty]";
+	this->starting_filename = "[empty]";
 	this ->max_voters = max_number_of_voters;
 	this -> current_num_voters = 0;
 	//dynamically allocate the max
@@ -47,7 +49,9 @@ void VoterDB::initiateLoop(){
 			Report();
 		}
 		else if(input == "Save"){
-			Save(filename);
+			cout << "What file would you like save to?" <<endl;
+			cin >> starting_filename;
+			Save(starting_filename);
 		}
 		else if(input == "Load"){
 			load_file();
@@ -165,23 +169,38 @@ void VoterDB::Save(std::string filename){
 }
 
 	void VoterDB::load_file(){
-		if(this->filename == "[empty]"){
+		string filename;
+		cout << "would you like to enter a file name y/n (no will use the command line arg provided)" <<endl;
+		string ansr;
+		cin >> ansr;
+		if(ansr.find('y') != std::string::npos){
 			cout << "Enter a file name (with the .csv extension): " << endl;
-			string filename;
 			cin >> filename;
 		}
-		else
-			string filename = this->filename;
+		else{
+			cout << "There is a file " << endl;
+			filename = starting_filename;
+		}
 		ifstream csv_reader(filename);
 		csv_reader >> std::noskipws;
 		int cntr = 0;
 		string line;
+		cout << "Loading line from CSV" << endl;
 		while(cntr < max_voters && getline(csv_reader, line)){
 			if (line.find(',') != std::string::npos){
-				cout << "PTR: " << VoterList[cntr] << endl;
-				VoterList[cntr] = new Voter(line);
-				cout << "TEST" << endl;
-				cntr++;
+				if(VoterList != nullptr){
+					cout << "PTR: " << VoterList[cntr] << endl;
+					VoterList[cntr] = new Voter(line);
+					cout << "TEST" << endl;
+					cntr++;
+				}
+				else{
+					VoterList = new Voter*[max_voters];
+					cout << "PTR: " << VoterList[cntr] << endl;
+					VoterList[cntr] = new Voter(line);
+					cout << "TEST" << endl;
+					cntr++;
+				}
 			}
 	}
 		current_num_voters = cntr;

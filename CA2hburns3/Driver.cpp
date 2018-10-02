@@ -5,7 +5,6 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-   string progName(argv[0]);
 	cout << "Starting Function" << endl ;
 	if(argc > 2){
 		int arg1 = stoi(argv[1]);

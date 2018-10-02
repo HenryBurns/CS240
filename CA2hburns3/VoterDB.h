@@ -10,7 +10,7 @@ using namespace std;
 
 class VoterDB{
 	public:
-		string filename;
+		string starting_filename;
 		int  user_id, max_voters;
 		int current_num_voters;
 		Voter** VoterList;

@@ -119,9 +119,11 @@ Voter::Voter(string& csv_portion){
 			cout <<"Enter Valid Input\n";
 		
 		}
+		return false;
 	}
 	void Voter::Password(){
 		string temp = "";
+		bool special_char = false;
 		string confirmation_password;
 		while( temp != "\n"){
 			cout << "Enter old password: ";
@@ -131,7 +133,13 @@ Voter::Voter(string& csv_portion){
 					cout << "Enter new password: \n";
 					cin.ignore();
 					cin >> temp;
-					if(temp.length() > 5 && !std::all_of(temp.begin(), temp.end(), ::isalnum) && temp.find_first_of("0123456789") != std::string::npos){
+					if(temp.length() > 5 && temp.find_first_of("0123456789") != std::string::npos){
+						for(unsigned int i = 0; i < temp.length(); i++){
+							if(!isalnum(temp[i]))
+									special_char = true;
+						}
+						if(!special_char)
+							continue;		
 						cout << "Enter new password again: \n";
 						cin >> confirmation_password;
 						if(temp == confirmation_password){
@@ -139,17 +147,21 @@ Voter::Voter(string& csv_portion){
 							break;
 						}
 					}
+					else{
+						cout << "Password did not have the correct specifications" << endl;
 			}	
-			else
-				cout << "Invalid data\n";
 		}
+		else
+			cout << "Invalid data: Both new passwords must match\n";
+
 	}
+}
 	void Voter::setNewPassword(){
 			string temp;
 			string confirmation_password;
-			cout << "Enter new password (must contain at least 5 characters, including 1 digit): \n";
+			cout << "Enter new password (must contain at least 5 characters, including 1 digit and one special character): \n";
 			cin >> temp;
-			if(temp.length() > 5 || !std::all_of(temp.begin(), temp.end(), ::isalnum) && temp.find_first_of("0123456789") != std::string::npos){
+			if(temp.length() > 5 && !std::all_of(temp.begin(), temp.end(), ::isalnum) && temp.find_first_of("0123456789") != std::string::npos){
 				cout << "Enter new password again: \n";
 				cin >> confirmation_password;
 				if(temp == confirmation_password){
@@ -169,7 +181,6 @@ Voter::Voter(string& csv_portion){
 	void Voter::Update(){
 		string temp;
 		string templine;
-		int temp_num;
 		cout << "\nCurrent last name is " << this->LastName << ". Enter Last Name: ";
 		cin.ignore();
 		temp = cin.get();

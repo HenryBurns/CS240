@@ -1,0 +1,21 @@
+Starting Function
+Starting Constructor
+would you like to enter a file name y/n (no will use the command line arg provided)
+There is a file 
+Loading line from CSV
+PTR: 0
+Lastname: Burke
+Firstname: Alex
+Userid: Alex1
+User password
+Age: 18
+StreetNumber: 2
+StreetName: Commak st
+Town: Binghamton 
+ZipCode: 12345
+Amount Donated: 10
+TEST
+Num Voters: 1
+Loaded File
+Database has been initiated
+Enter Input: choose from Login, New, Report, Save, Load, and Quit
