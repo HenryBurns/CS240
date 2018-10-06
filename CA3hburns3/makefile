@@ -2,7 +2,7 @@ CC = g++
 CC_FLAGS = -Wall
  
 # File names
-EXEC = Voter
+EXEC = LLC
 SOURCES = $(wildcard *.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
  
