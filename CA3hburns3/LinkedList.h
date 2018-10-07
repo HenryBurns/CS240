@@ -10,6 +10,8 @@ class LLC{
 	NODE* first;
 	NODE* last;
 	public:
+	NODE* getFirst();
+	NODE* getLast();
 	LLC();
 	LLC(LLC const &);
 	~LLC();
@@ -19,7 +21,7 @@ class LLC{
 	void shuffle();
 	void head(int n);
 	int len();
-	void join(LLC other);
+	void join(LLC &other);
 	std::string tail();
 	LLC& operator+=(int n);
 	LLC& operator=(const LLC &);

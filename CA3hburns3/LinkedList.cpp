@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <iostream>
 #include "LinkedList.h"
-
+//works
 	LLC::LLC(){
 		first = nullptr;
 		last = nullptr;
 	}
-
+//works
 	LLC::LLC(LLC const &other){
 		NODE* other_temp = other.first;
 		NODE* prev;
@@ -32,7 +32,7 @@
 			temp = first;
 		}
 	}
-
+//works
 	bool LLC::contains(const std::string &val){
 		NODE* temp = first;
 		while(temp != nullptr){
@@ -42,7 +42,7 @@
 		}
 		return false;
 	}
-
+//works
 	bool LLC::insert(const std::string &value){
 		NODE* temp = new NODE;
 		if(last == nullptr){
@@ -56,7 +56,7 @@
 		temp -> data = value;	
 		return true;
 	}
-
+//works
 	void LLC::remove(const std::string &value){
 		if(first == nullptr)
 			return;
@@ -82,28 +82,12 @@
 		}
 		last = prev;
 	}
-
+//TODO
 	void LLC::shuffle(){
-		NODE* temp = first;
-		if(temp == nullptr)
-			return;
-		NODE* next = temp->next;
-		first = next;
-		next -> next = temp;
-		temp-> next = next -> next;
-		NODE* prev = first;
-		temp = first -> next; 
-		next = temp -> next;
-		while(next->next != nullptr){
-			prev->next = next;
-			temp -> next = next -> next;
-			next -> next = temp;
-			prev = next;
-			next = temp -> next;
-		}	
-		last = next;
+		
 	}
 
+//works
 	void LLC::head(int n){
 		NODE* temp = first;
 		std::cout << "[";
@@ -126,41 +110,80 @@
 	return last ->data;
 	}
 
-	void LLC::join(LLC other){
-		last ->next = other.first;
-		last = other.last;
+//works
+	void LLC::join(LLC &other){
+		NODE* temp = other.first;
+		if(last != nullptr){
+			std::cout << "Last: " << last << " Last Data: " << last->data <<std::endl;
+			while(temp != nullptr){
+				std::cout <<"Data: " <<temp->data <<std::endl;
+				NODE* new_node = new NODE;
+				new_node->data = temp ->data;
+				last ->next = new_node;
+				last = new_node;
+				temp = temp-> next;
+			}
+			last->next = nullptr;
+		}
+		else{
+			temp = other.first;
+			while(temp != nullptr){
+				last ->next = temp;
+				last = temp;
+			}
+			std::cout << "hit other" << std::endl;
+		}
 		return;
-	}
+}
+//works
 	int LLC::len(){
-	NODE* temp = first;
-	int cntr = 1;
-	while(temp != last){
-		temp = temp -> next;
-		cntr++;
+		NODE* temp = first;
+		int cntr = 1;
+		while(temp != last){
+			temp = temp -> next;
+			cntr++;
+		}
+		return cntr;
 	}
-	return cntr;
-	}
+//works
 	LLC& LLC::operator=(const LLC& other){
 		if(this != &other){
-			LLC ansr = (LLC(other));
-			this->first = ansr.first;
-			this->last = ansr.last;
-			delete(&other);
+			NODE* iter = first;
+			NODE* thing;
+				while(iter != nullptr){
+						thing = iter->next;
+						delete(iter);
+						iter = thing;
+				}
+				iter = other.first;
+				NODE* temp = new NODE;
+				first = temp;
+				if(iter == nullptr)
+					first = nullptr;
+				while(iter != nullptr){
+					temp->data = iter-> data;
+					last = temp;
+					temp = new NODE;
+					last->next = temp;
+					iter = iter-> next;
+				}
+				last ->next = nullptr;
 		}
 		return *this;
 	}
-
+//TODO make
 	std::ostream& operator<<(std::ostream &os, const LLC& to_print){
 		os << "test" << std::endl;
 		return os;
 	}
+//TODO test
 	LLC& LLC::operator+(const LLC &other){
 		LLC* temp = new LLC(*this);
 		temp->last->next = other.first;
 		return *temp;
 	}
 
-
+//TODO test
 	LLC& LLC::operator+=(int n){
 		int length = len();
 		n = n%length;
@@ -173,3 +196,9 @@
 		return *this;
 	}
 
+	NODE* LLC::getFirst(){
+			return first;
+	}
+	NODE* LLC::getLast(){
+			return last;
+	}
