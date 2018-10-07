@@ -110,7 +110,7 @@
 	return last ->data;
 	}
 
-//works
+//works 
 	void LLC::join(LLC &other){
 		NODE* temp = other.first;
 		if(last != nullptr){
@@ -126,12 +126,7 @@
 			last->next = nullptr;
 		}
 		else{
-			temp = other.first;
-			while(temp != nullptr){
-				last ->next = temp;
-				last = temp;
-			}
-			std::cout << "hit other" << std::endl;
+			std::cout << "Other was null" << std::endl;
 		}
 		return;
 }
@@ -171,19 +166,67 @@
 		}
 		return *this;
 	}
-//TODO make
+//works
 	std::ostream& operator<<(std::ostream &os, const LLC& to_print){
-		os << "test" << std::endl;
+		NODE* temp = to_print.first;
+		os << "[";
+		if(temp == nullptr)
+				os << "NULL]";
+		while(temp != nullptr){
+			if(temp->next !=nullptr)
+				os << temp->data << ", ";
+			else
+				os << temp->data << "]" << std::endl;
+			temp = temp->next;
+			}
 		return os;
 	}
-//TODO test
+//works
 	LLC& LLC::operator+(const LLC &other){
-		LLC* temp = new LLC(*this);
-		temp->last->next = other.first;
-		return *temp;
+		LLC* new_llc = new LLC();
+		this->head(this->len());
+		std::cout << "length: " << this->len() << std::endl;
+		NODE* temp = this->first;
+		std::cout << "Temp: " << temp << std::endl;
+		std::cout << "first: " << temp->data << std::endl;
+		while(temp != nullptr){
+				NODE* next = new NODE;
+				if(new_llc->last == nullptr){
+						new_llc->last = next;
+						new_llc->first = next;
+						next->data = temp -> data;
+						temp = temp->next;
+				}
+				else {
+					new_llc->last->next = next;
+					next ->data = temp->data;
+					temp = temp->next;
+					new_llc->last = new_llc->last->next;
+				}
+		}
+		std::cout << "length: " << new_llc->len() << std::endl;
+		temp = other.first;
+		std::cout << "Temp: " << temp << std::endl;
+		std::cout << "first: " << temp->data << std::endl;
+		while(temp != nullptr){
+				NODE* next = new NODE;
+				if(new_llc->last == nullptr){
+						new_llc->last = next;
+						new_llc->first = next;
+						next = temp->next;
+				}
+				else {
+					new_llc->last->next = next;
+					next ->data = temp->data;
+					temp = temp->next;
+					new_llc->last = new_llc->last->next;
+				}
+		}
+		last->next = nullptr;
+		return *new_llc;
 	}
 
-//TODO test
+//works
 	LLC& LLC::operator+=(int n){
 		int length = len();
 		n = n%length;
@@ -191,7 +234,7 @@
 			last -> next = first;
 			last = last -> next;
 			first = first->next;
-			last -> next = NULL;
+			last -> next = nullptr;
 		}	
 		return *this;
 	}
