@@ -26,4 +26,6 @@ int main(){
 	std::cout << "Num nodes: " << test->len() << std::endl;
 	*test += 4;
 	std::cout << "Test: " << *test << std::endl;
+	test->shuffle();
+	std::cout << "Shuffle: " << *test << std::endl;
 	}
