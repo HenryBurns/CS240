@@ -209,7 +209,17 @@
 				std::cout << "Current List: " << *this << std::endl;
 			}
 		}
+		temp = first;
+		while(temp != nullptr){
+				temp2 = temp;
+				temp = temp->next;
 	}
+		std::cout << "First: " << std::endl;
+		std::cout << first->data << std::endl;
+		std::cout << "Last: " << std::endl;
+		std::cout << last -> data << std::endl;
+	last = temp2;
+}
 
 //works
 	void LLC::head(int n){
