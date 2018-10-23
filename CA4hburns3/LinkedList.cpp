@@ -5,16 +5,18 @@
 #include <cstdlib>  // For srand() and rand()
 #include "LinkedList.h"
 //works
-	LLC::LLC(){
+	template <class T>
+	LLC<T>::LLC(){
 		first = nullptr;
 		last = nullptr;
 	}
-//works
-	LLC::LLC(LLC const &other){
-		NODE* other_temp = other.first;
-		NODE* prev;
+//work
+	template <class T>
+	LLC<T>::LLC(LLC<T> const &other){
+		NODE<T>* other_temp = other.first;
+		NODE<T>* prev;
 		while(other_temp != NULL){
-			NODE* temp_node = new NODE;
+			NODE<T>* temp_node = new NODE<T>;
 			if(prev != nullptr)
 				prev ->next = temp_node;
 			if(first == nullptr)
@@ -26,8 +28,9 @@
 		}
 	}
 
-	LLC::~LLC(){
-		NODE* temp = first;
+	template <class T>
+	LLC<T>::~LLC(){
+		NODE<T>* temp = first;
 		while(temp != nullptr){
 			first = temp ->next;
 			delete(temp);
@@ -35,8 +38,9 @@
 		}
 	}
 //works
-	bool LLC::contains(const std::string &val){
-		NODE* temp = first;
+	template <class T>
+	bool LLC<T>::contains(const T &val){
+		NODE<T>* temp = first;
 		while(temp != nullptr){
 			if(temp->data == val)
 				return true;
@@ -45,8 +49,9 @@
 		return false;
 	}
 //works
-	bool LLC::insert(const std::string &value){
-		NODE* temp = new NODE;
+	template <class T>
+	bool LLC<T>::insert(const T &value){
+		NODE<T>* temp = new NODE<T>;
 		if(last == nullptr){
 			first = temp;
 			last = temp;
@@ -59,16 +64,17 @@
 		return true;
 	}
 //works
-	void LLC::remove(const std::string &value){
+	template <class T>
+	void LLC<T>::remove(const T &value){
 		if(first == nullptr)
 			return;
-		NODE* temp = first;
+		NODE<T>* temp = first;
 		while(temp != nullptr && first -> data == value){
 			first = first -> next;
 			delete(temp);
 			temp = first;
 		}
-		NODE* prev = temp;
+		NODE<T>* prev = temp;
 		if(temp != nullptr){
 			temp = temp -> next;
 			while(temp != nullptr){
@@ -85,7 +91,8 @@
 		last = prev;
 	}
 //TODO
-	void LLC::shuffle(){
+	template <class T>
+	void LLC<T>::shuffle(){
 		//generate a random seed
 		srand(time(0));
 		//create a random number of times to switch elements
@@ -95,7 +102,7 @@
 		int length = len();
 		std::cout << "Length: " << length << std::endl;
 		//declare temporary pointers
-		NODE* temp,*temp2,*temp3, *rand1_prev, *rand2_prev;
+		NODE<T>* temp,*temp2,*temp3, *rand1_prev, *rand2_prev;
 		for(int i = 0; i < n; i++){
 			//get 2 random node indexes to switch
 			rand1 = (rand()%(length))+1;
@@ -222,8 +229,9 @@
 }
 
 //works
-	void LLC::head(int n){
-		NODE* temp = first;
+	template <class T>
+	void LLC<T>::head(int n){
+		NODE<T>* temp = first;
 		std::cout << "[";
 		for(int i = 0; i < n-1; i++){
 			if(temp == nullptr){
@@ -239,19 +247,21 @@
 		return;
 	}
 
-	std::string LLC::tail(){
+	template <class T>
+	T LLC<T>::tail(){
 	std::cout << last->data << std::endl;
 	return last ->data;
 	}
 
 //works 
-	void LLC::join(LLC &other){
-		NODE* temp = other.first;
+	template <class T>
+	void LLC<T>::join(LLC<T> &other){
+		NODE<T>* temp = other.first;
 		if(temp != nullptr){
 			std::cout << "Temp: " << temp << " Temp Data: " << temp->data <<std::endl;
 			while(temp != nullptr){
 				std::cout <<"Data: " <<temp->data <<std::endl;
-				NODE* new_node = new NODE;
+				NODE<T>* new_node = new NODE<T>;
 				new_node->data = temp ->data;
 				last ->next = new_node;
 				last = new_node;
@@ -265,8 +275,9 @@
 		return;
 }
 //works
-	int LLC::len(){
-		NODE* temp = first;
+	template <class T>
+	int LLC<T>::len(){
+		NODE<T>* temp = first;
 		int cntr = 1;
 		while(temp != last){
 			temp = temp -> next;
@@ -275,24 +286,25 @@
 		return cntr;
 	}
 //works
-	LLC& LLC::operator=(const LLC& other){
+	template <class T>
+	LLC<T>& LLC<T>::operator=(const LLC<T>& other){
 		if(this != &other){
-			NODE* iter = first;
-			NODE* thing;
+			NODE<T>* iter = first;
+			NODE<T>* thing;
 				while(iter != nullptr){
 						thing = iter->next;
 						delete(iter);
 						iter = thing;
 				}
 				iter = other.first;
-				NODE* temp = new NODE;
+				NODE<T>* temp = new NODE<T>; 
 				first = temp;
 				if(iter == nullptr)
 					first = nullptr;
 				while(iter != nullptr){
 					temp->data = iter-> data;
 					last = temp;
-					temp = new NODE;
+					temp = new NODE<T>; 
 					last->next = temp;
 					iter = iter-> next;
 				}
@@ -301,8 +313,9 @@
 		return *this;
 	}
 //works
-	std::ostream& operator<<(std::ostream &os, const LLC& to_print){
-		NODE* temp = to_print.first;
+	template <class T>
+	std::ostream& operator<<(std::ostream &os, const LLC<T>& to_print){
+		NODE<T>* temp = to_print.first;
 		os << "[";
 		if(temp == nullptr)
 				os << "NULL]";
@@ -316,16 +329,17 @@
 		return os;
 	}
 //works
-	LLC& LLC::operator+(const LLC &other){
-		LLC* new_llc = new LLC();
+	template <class T>
+	LLC<T>& LLC<T>::operator+(const LLC<T> &other){
+		LLC<T>* new_llc = new LLC<T>();
 		new_llc->last = nullptr;
 		this->head(this->len());
 		std::cout << "length: " << this->len() << std::endl;
-		NODE* temp = this->first;
+		NODE<T>* temp = this->first;
 		std::cout << "Temp: " << temp << std::endl;
 		std::cout << "first: " << temp->data << std::endl;
 		while(temp != nullptr){
-				NODE* next = new NODE;
+				NODE<T>* next = new NODE<T>;
 				if(new_llc->last == nullptr){
 						next->data = temp -> data;
 						new_llc->last = next;
@@ -346,7 +360,7 @@
 		std::cout << "Temp: " << temp << std::endl;
 		std::cout << "first: " << temp->data << std::endl;
 		while(temp != nullptr){
-				NODE* next = new NODE;
+				NODE<T>* next = new NODE<T>;
 				if(new_llc->last == nullptr){
 						new_llc->last = next;
 						new_llc->first = next;
@@ -367,7 +381,8 @@
 	}
 
 //works
-	LLC& LLC::operator+=(int n){
+	template <class T>
+	LLC<T>& LLC<T>::operator+=(int n){
 		int length = len();
 		n = n%length;
 		for(int i = 0; i < n; i++){
@@ -379,9 +394,11 @@
 		return *this;
 	}
 
-	NODE* LLC::getFirst(){
+	template <class T>
+	NODE<T>* LLC<T>::getFirst(){
 			return first;
 	}
-	NODE* LLC::getLast(){
+	template <class T>
+	NODE<T>* LLC<T>::getLast(){
 			return last;
 	}

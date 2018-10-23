@@ -1,13 +1,16 @@
 #include "LinkedList.h"
 #include <iostream>
+#include <string>
+
 int main(){
-	LLC* test = new LLC();
+		/*
+	LLC<std::string>* test = new LLC<std::string>();
 	test->insert("Hello");
 	test->insert("middle");
 	test->insert("Goodbye");
-	LLC* test3 = new LLC(*test);
+	LLC<std::string>* test3 = new LLC<std::string>(*test);
 	//std::cout << "test3" <<std::endl;
-	LLC* test2 = new LLC();
+	LLC<std::string>* test2 = new LLC<std::string>();
 	test2->insert("Hello2");
 	test2->insert("middle2");
 	test2->insert("Goodbye2");
@@ -30,4 +33,5 @@ int main(){
 	//test->shuffle();
 	//std::cout << "Shuffle: " << *test << std::endl;
 	test ->tail();
+	*/
 	}
