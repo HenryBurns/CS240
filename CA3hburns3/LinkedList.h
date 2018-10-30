@@ -25,7 +25,7 @@ class LLC{
 	std::string tail();
 	LLC& operator+=(int n);
 	LLC& operator=(const LLC &);
-	LLC& operator+(const LLC &);
+	LLC operator+(const LLC &);
 	friend std::ostream& operator<<(std::ostream &, const LLC&);
 };
 #endif

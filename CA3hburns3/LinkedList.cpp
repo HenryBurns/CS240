@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
 #include <ctime>    // For time()
@@ -11,8 +10,10 @@
 	}
 //works
 	LLC::LLC(LLC const &other){
+		first = nullptr;
+		last = nullptr;
 		NODE* other_temp = other.first;
-		NODE* prev;
+		NODE* prev = nullptr;
 		while(other_temp != NULL){
 			NODE* temp_node = new NODE;
 			if(prev != nullptr)
@@ -24,6 +25,8 @@
 			last = temp_node;
 			other_temp = other_temp -> next;
 		}
+		std::cout << "Other LLC: " << other << std::endl;
+		std::cout << "Copy Constructor: " << *this << std::endl;
 	}
 
 	LLC::~LLC(){
@@ -246,6 +249,7 @@
 
 //works 
 	void LLC::join(LLC &other){
+		std::cout << "Joining. "<<std::endl;
 		NODE* temp = other.first;
 		if(temp != nullptr){
 			std::cout << "Temp: " << temp << " Temp Data: " << temp->data <<std::endl;
@@ -276,27 +280,39 @@
 	}
 //works
 	LLC& LLC::operator=(const LLC& other){
+			int cntr = 0;
 		if(this != &other){
 			NODE* iter = first;
 			NODE* thing;
+			std::cout << "This list: " << *this << std::endl;
 				while(iter != nullptr){
 						thing = iter->next;
 						delete(iter);
 						iter = thing;
+						cntr++;
 				}
+				first = nullptr;
+				std::cout << "This list: " << *this <<  " CNTR: " << cntr << std::endl;
 				iter = other.first;
-				NODE* temp = new NODE;
-				first = temp;
-				if(iter == nullptr)
+				if(iter == nullptr){
 					first = nullptr;
-				while(iter != nullptr){
-					temp->data = iter-> data;
-					last = temp;
-					temp = new NODE;
-					last->next = temp;
-					iter = iter-> next;
 				}
-				last ->next = nullptr;
+				else{
+					NODE* temp = new NODE;
+					first = temp;
+					while(iter != nullptr){
+						temp->data = iter-> data;
+						last = temp;
+						temp = new NODE;
+						last->next = temp;
+						iter = iter-> next;
+					}
+					delete temp;
+					last ->next = nullptr;
+				}
+		}
+		else{
+				std::cout << "The two lists were the same, so we do nothing" << std::endl;
 		}
 		return *this;
 	}
@@ -316,8 +332,9 @@
 		return os;
 	}
 //works
-	LLC& LLC::operator+(const LLC &other){
-		LLC* new_llc = new LLC();
+	LLC LLC::operator+(const LLC &other){
+		LLC new_llc1 = LLC();
+		LLC* new_llc = &new_llc1;
 		new_llc->last = nullptr;
 		this->head(this->len());
 		std::cout << "length: " << this->len() << std::endl;
@@ -363,7 +380,7 @@
 		last->next = nullptr;
 		std::cout << "first temp data: " << new_llc->first->data << std::endl;
 		new_llc->head(new_llc->len());
-		return *new_llc;
+		return new_llc1;
 	}
 
 //works

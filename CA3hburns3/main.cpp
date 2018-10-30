@@ -13,6 +13,7 @@ int main(){
 	test2->insert("Goodbye2");
 	//std::cout << *test2 << std::endl;	
 	test->join(*test2);
+	std::cout << "\n\nTest: " << *test << std::endl;
 	//std::cout << "Test: " << *test << std::endl;
 	*test = *test3;
 	//std::cout << "Should seg fault" << std::endl;
@@ -30,4 +31,7 @@ int main(){
 	//test->shuffle();
 	//std::cout << "Shuffle: " << *test << std::endl;
 	test ->tail();
+	delete(test);
+	delete(test2);
+	delete(test3);
 	}
