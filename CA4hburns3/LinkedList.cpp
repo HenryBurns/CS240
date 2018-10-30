@@ -3,7 +3,7 @@
 #include <iostream>
 #include <ctime>    // For time()
 #include <cstdlib>  // For srand() and rand()
-#include "LinkedList.h"
+#include "LinkedList.hpp"
 //works
 	template <class T>
 	LLC<T>::LLC(){
@@ -308,6 +308,7 @@
 					last->next = temp;
 					iter = iter-> next;
 				}
+				delete temp;
 				last ->next = nullptr;
 		}
 		return *this;
@@ -330,8 +331,9 @@
 	}
 //works
 	template <class T>
-	LLC<T>& LLC<T>::operator+(const LLC<T> &other){
-		LLC<T>* new_llc = new LLC<T>();
+	LLC<T> LLC<T>::operator+(const LLC<T> &other){
+		LLC<T> new_llc1 = LLC();
+		LLC<T>* new_llc = &new_llc1;
 		new_llc->last = nullptr;
 		this->head(this->len());
 		std::cout << "length: " << this->len() << std::endl;
@@ -377,7 +379,7 @@
 		last->next = nullptr;
 		std::cout << "first temp data: " << new_llc->first->data << std::endl;
 		new_llc->head(new_llc->len());
-		return *new_llc;
+		return new_llc1;
 	}
 
 //works

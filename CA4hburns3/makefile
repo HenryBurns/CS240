@@ -7,12 +7,8 @@ SOURCES = $(wildcard *.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
  
 # Main target
-$(EXEC): $(OBJECTS)
-	$(CC) $(OBJECTS) -o $(EXEC)
- 
-# To obtain object files
-%.o: %.cpp
-	$(CC) -c $(CC_FLAGS) $< -o $@
+$(EXEC): 
+	$(CC) $(SOURCES) -o $(EXEC)
  
 # To remove generated files
 clean:

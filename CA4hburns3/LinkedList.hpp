@@ -28,7 +28,7 @@ class LLC{
 	T tail();
 	LLC& operator+=(int n);
 	LLC& operator=(const LLC &);
-	LLC& operator+(const LLC &);
+	LLC operator+(const LLC &);
 	//TODO include templating for friend function.
 	template <class U>
 	friend std::ostream& operator<<(std::ostream &, const LLC<U>&);
