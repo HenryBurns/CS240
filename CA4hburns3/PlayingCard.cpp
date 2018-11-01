@@ -2,6 +2,9 @@
 #include <iostream>
 
 
+PlayingCard::PlayingCard(){
+
+}
 PlayingCard::PlayingCard(int new_val, suit new_card_suit ){
         card_suit = new_card_suit;
         val = new_val;
@@ -24,7 +27,7 @@ bool PlayingCard::operator==(const PlayingCard &other){
     return false;
 }
 
-std::ostream& PlayingCard::operator<<(std::ostream &out_stream, PlayingCard &other){
+std::ostream& operator<<(std::ostream &out_stream, const PlayingCard &other){
     if(other.val <= 10)
             out_stream << other.val;
     else{
@@ -57,6 +60,7 @@ std::ostream& PlayingCard::operator<<(std::ostream &out_stream, PlayingCard &oth
                     out_stream << "C";
                     break;
     }
+    return out_stream;
 }
 
 

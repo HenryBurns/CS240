@@ -10,6 +10,7 @@ typedef enum {
 //struct of a card containing a value and a suit
 class PlayingCard{
 	public:
+        PlayingCard();
         PlayingCard(int new_val, suit new_card_suit );
         bool operator>(const PlayingCard &other);
         bool operator<(const PlayingCard &other);
