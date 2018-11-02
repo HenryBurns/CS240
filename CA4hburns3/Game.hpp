@@ -1,14 +1,17 @@
 #ifndef GAME_HPP
 #define GAME_HPP
+#include "Player.hpp"
 
 class Game {
     public:
-        LLC<PlayingCard> player1;
-        LLC<PlayingCard> player2;
+        Player player1;
+        Player player2;
         LLC<PlayingCard> community;
         Game();
-        int Battle();
-        void War();
+        int play();
+        void battle();
+        void war();
+	    friend std::ostream& operator<<(std::ostream &, const Game &);
 };
 
        

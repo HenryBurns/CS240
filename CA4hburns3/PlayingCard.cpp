@@ -1,7 +1,6 @@
 #include "PlayingCard.hpp"
 #include <iostream>
 
-
 PlayingCard::PlayingCard(){
 
 }
@@ -28,10 +27,13 @@ bool PlayingCard::operator==(const PlayingCard &other){
 }
 
 std::ostream& operator<<(std::ostream &out_stream, const PlayingCard &other){
-    if(other.val <= 10)
+    if(other.val < 10)
             out_stream << other.val;
     else{
             switch(other.val){
+                    case 10:
+                            out_stream << "T";
+                            break;
                     case 11:
                             out_stream << "J";
                             break;
