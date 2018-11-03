@@ -55,12 +55,14 @@ class LLC{
 //work
 	template <class T>
 	LLC<T>::LLC(LLC<T> const &other){
+		first = nullptr;
+		last = nullptr;
 		NODE<T>* other_temp = other.first;
-		NODE<T>* prev;
+		NODE<T>* prev = nullptr;
 		while(other_temp != NULL){
 			NODE<T>* temp_node = new NODE<T>;
 			if(prev != nullptr)
-				prev ->next = temp_node;
+				prev->next = temp_node;
 			if(first == nullptr)
 				first = temp_node;
 			temp_node ->data = other_temp -> data;

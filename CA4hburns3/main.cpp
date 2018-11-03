@@ -10,14 +10,22 @@ int main(int argc, char** argv){
             std::cout << "Please enter a valid number of arguments." << std::endl;
             return 1;
     }
-    std::ofstream file;
+    std::ifstream file;
     file.open(argv[1]);
+    std::string name1;
+    std::string name2;
+    file >> name1;
+    file >> name2;
     std::cout << "Pre game here" << std::endl;
+    Player* player1 = new Player(name1);
+    Player* player2 = new Player(name2);
     Game* game = new Game();
     std::cout << *game << std::endl;
-    int winner = game->play();
-    std::cout << *game << std::endl;
-    std::cout << "Post game here. Winner: " <<winner << std::endl;
+    Player winner = game->play(*player1, *player2);
+    winner.wins++;
+    std::cout << "Winner: " << winner << std::endl;
+    std::cout << "Player 1: " << *player1 << std::endl;
+    std::cout << "Player 2: " << *player2 << std::endl;
     delete game;
     return 0;
 	}
