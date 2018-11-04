@@ -23,9 +23,13 @@ int main(int argc, char** argv){
     std::cout << *game << std::endl;
     Player winner = game->play(*player1, *player2);
     winner.wins++;
-    std::cout << "Winner: " << winner << std::endl;
+    std::cout << "Winner: " << winner << "\n Num cards: " << winner.cards.len()<< std::endl;
     std::cout << "Player 1: " << *player1 << std::endl;
     std::cout << "Player 2: " << *player2 << std::endl;
     delete game;
+    delete player1;
+    delete player2;
     return 0;
 	}
+
+

@@ -46,13 +46,13 @@ void Game::setUp(){
                     if(cntr > 1000)
                             return player1;
                     battle(player1, player2); 
+                    std::cout << "Community cards: " << community << "\n p1 length: " << player1.cards.len() << ". p2 length: " << player2.cards.len() << std::endl;
             }
             return (player1.cards.len() > player2.cards.len())? player1 : player2;
 
     }
     
     void Game::battle(Player &player1, Player &player2){
-            std::cout << "Starting a battle, mkay?" << std::endl;
             community.addNode(player1.cards.getElement());
             community.addNode(player2.cards.getElement()); PlayingCard card1 =
                     community.getData(0); PlayingCard card2 = community.getData(1);
@@ -67,7 +67,6 @@ void Game::setUp(){
             else {
                     war(player1, player2); 
             }
-            std::cout << "Ending a battle, mkay?" << std::endl;
     }
 
     void Game::war(Player &player1, Player &player2){ 
@@ -76,9 +75,9 @@ void Game::setUp(){
             std::cout << "Starting a war, mkay?" << std::endl;
             PlayingCard card1;
             PlayingCard card2;
-            int length = community.len();
             NODE<PlayingCard>* temp;
             int more_cards = 0;
+            int length = community.len();
             if(player1.cards.len() == 0){
                     player1.battles_won++;
                     for(int i = 0; i< length; i++){
@@ -127,6 +126,7 @@ void Game::setUp(){
                             }
                         card2 = temp->data;
                     }
+                    length = community.len();
                     std::cout << "Card1: " << card1 << ". Card 2: " << card2 << std::endl;
                     if(card1 > card2){
                             std::cout << "We ending p1 won" << std::endl;
