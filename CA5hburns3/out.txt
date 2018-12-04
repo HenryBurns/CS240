@@ -1,0 +1,2051 @@
+Departure: Jacksonville. Arrival city: Birmingham
+09:12am
+10:14am
+Departure: Baton_Rouge. Arrival city: Milwaukee
+06:10am
+08:2am
+Departure: Elkhart. Arrival city: Chattanooga
+02:8am
+04:11am
+Departure: Omaha. Arrival city: Simi_Valley
+09:10pm
+10:11pm
+Departure: Fayetteville. Arrival city: Pomona
+08:5am
+10:6am
+Departure: Havre_de_Grace. Arrival city: Houston
+05:19pm
+05:20pm
+Departure: College_Station. Arrival city: Houston
+06:16am
+07:18am
+Departure: Memphis. Arrival city: North_Las_Vegas
+08:7pm
+10:2pm
+Departure: Birmingham. Arrival city: Tallahassee
+04:3pm
+05:1pm
+Departure: Fort_Smith. Arrival city: Flint
+10:4pm
+11:22pm
+Departure: San_Antonio. Arrival city: Vero_Beach
+12:8am
+12:22am
+Departure: Green_Bay. Arrival city: Fort_Walton_Beach
+01:3am
+03:20am
+Departure: Gastonia. Arrival city: Victorville
+06:18pm
+07:23pm
+Departure: Marina. Arrival city: Portland
+09:4pm
+09:14pm
+Departure: Gastonia. Arrival city: Palmdale
+08:21pm
+09:19pm
+Departure: Palmdale. Arrival city: Asheville
+07:12am
+09:20am
+Departure: Las_Vegas. Arrival city: Houston
+07:23am
+08:14am
+Departure: Palm_Bay. Arrival city: Daytona_Beach
+06:20am
+09:16am
+Departure: Poughkeepsie. Arrival city: Antioch
+11:16am
+01:20pm
+Departure: Fort_Smith. Arrival city: Newport_News
+08:21am
+09:16am
+Departure: Dallas. Arrival city: Knoxville
+02:6pm
+03:21pm
+Departure: Abilene. Arrival city: Huntington
+06:13pm
+06:17pm
+Departure: Milwaukee. Arrival city: San_Bernardino
+03:11pm
+04:0pm
+Departure: Frederick. Arrival city: Yonkers
+07:6am
+09:2am
+Departure: Philadelphia. Arrival city: Newark
+01:2am
+03:14am
+Departure: Allentown. Arrival city: Poughkeepsie
+10:9am
+12:2am
+Departure: Wilmington. Arrival city: Lakeland
+04:9am
+06:22am
+Departure: Rancho_Cucamonga. Arrival city: Gainesville
+10:19pm
+10:16pm
+Departure: New_Bedford. Arrival city: San_Buenaventura
+04:3am
+05:0am
+Departure: Savannah. Arrival city: Wilmington
+02:10am
+04:8am
+Departure: Hampton. Arrival city: Savannah
+04:16pm
+06:2pm
+Departure: Mesquite. Arrival city: Boise_City
+08:0pm
+11:4pm
+Departure: Philadelphia. Arrival city: Garden_Grove
+06:7am
+08:6am
+Departure: Vancouver. Arrival city: Fitchburg
+09:21am
+11:6am
+Departure: GreenBay. Arrival city: Naperville
+10:21pm
+11:23pm
+Departure: Pembroke_Pines. Arrival city: Nashua
+03:13pm
+03:20pm
+Departure: Port_Saint_Lucie. Arrival city: Joliet
+09:13pm
+11:3pm
+Departure: Colorado_Springs. Arrival city: Clarksville
+10:15pm
+10:2pm
+Departure: Kalamazoo. Arrival city: Bakersfield
+08:18pm
+09:20pm
+Departure: St._Louis. Arrival city: Spartanburg
+10:3am
+10:2am
+Departure: Ocala. Arrival city: Olympia
+11:6am
+12:9am
+Departure: Hollywood. Arrival city: Concord
+12:0am
+02:2pm
+Departure: Pomona. Arrival city: Vancouver
+05:12am
+07:18am
+Departure: Winter_Haven. Arrival city: Norwalk
+06:7pm
+08:0pm
+Departure: South_Bend. Arrival city: Anaheim
+12:8am
+02:13pm
+Departure: Waterloo. Arrival city: Bremerton
+08:19pm
+11:12pm
+Departure: Lansing. Arrival city: Leominster
+06:13am
+07:21am
+Departure: Bryan. Arrival city: Independence
+06:9pm
+06:13pm
+Departure: Springfield. Arrival city: Havre_de_Grace
+03:15am
+04:21am
+Departure: Poughkeepsie. Arrival city: Murfreesboro
+10:2pm
+10:21pm
+Departure: Richmond_County. Arrival city: Cary
+12:7am
+01:5am
+Departure: Pembroke_Pines. Arrival city: Redding
+09:0pm
+11:23pm
+Departure: Louisville. Arrival city: Oakland
+09:13pm
+11:19pm
+Departure: Lancaster. Arrival city: Newport_News
+09:10pm
+10:5pm
+Departure: Hickory. Arrival city: Allentown
+11:17am
+01:13pm
+Departure: San_Buenaventura. Arrival city: Green_Bay
+03:8am
+05:19am
+Departure: Lewisville. Arrival city: Lowell
+04:4am
+05:15am
+Departure: Tacoma. Arrival city: Gainesville
+09:3am
+12:11am
+Departure: Fitchburg. Arrival city: Clearwater
+03:9pm
+05:3pm
+Departure: Davidson_County. Arrival city: Modesto
+09:2am
+11:10am
+Departure: Richland. Arrival city: Simi_Valley
+03:6pm
+04:15pm
+Departure: Asheville. Arrival city: Thousand_Oaks
+12:6am
+03:12am
+Departure: Gilbert. Arrival city: Charlotte
+12:2am
+03:1pm
+Departure: Richland. Arrival city: Killeen
+01:12am
+01:17am
+Departure: South_Bend. Arrival city: Bakersfield
+11:19pm
+11:23pm
+Departure: Port_St._Lucie. Arrival city: Chesapeake
+03:23am
+04:15am
+Departure: Visalia. Arrival city: Spokane
+07:12am
+08:1am
+Departure: Santa_Rosa. Arrival city: Murfreesboro
+12:0am
+01:8pm
+Departure: St._Louis. Arrival city: Panama_City
+08:22pm
+10:14pm
+Departure: Spartanburg. Arrival city: Naples
+01:21pm
+03:14pm
+Departure: Kennewick. Arrival city: Olympia
+05:13am
+07:23am
+Departure: Panama_City. Arrival city: Baton_Rouge
+01:9pm
+03:12pm
+Departure: New_Bedford. Arrival city: Victorville
+08:15pm
+09:22pm
+Departure: Abilene. Arrival city: Independence
+08:10am
+10:13am
+Departure: Medford. Arrival city: Salem
+02:0am
+04:11am
+Departure: Bryan. Arrival city: Thousand_Oaks
+04:10pm
+05:13pm
+Departure: McAllen. Arrival city: Moreno_Valley
+10:7pm
+11:23pm
+Departure: Daly_City. Arrival city: Davidson_County
+02:9pm
+02:19pm
+Departure: Yonkers. Arrival city: Spartanburg
+05:4pm
+05:16pm
+Departure: South_Bend. Arrival city: Arlington
+07:15am
+10:0am
+Departure: Palm_Bay. Arrival city: Westminster
+08:3am
+11:15am
+Departure: Pueblo. Arrival city: Glendale
+10:14pm
+11:2pm
+Departure: Bethlehem. Arrival city: Orem
+09:19am
+11:3am
+Departure: Palmdale. Arrival city: Independence
+09:20am
+10:9am
+Departure: Portsmouth. Arrival city: Medford
+02:11pm
+04:14pm
+Departure: Saginaw. Arrival city: Minneapolis
+02:6pm
+04:4pm
+Departure: Memphis. Arrival city: Spokane
+03:14am
+04:12am
+Departure: St._Paul. Arrival city: New_York_City
+02:6pm
+04:17pm
+Departure: Torrance. Arrival city: College_Station
+02:1am
+03:4am
+Departure: Miami. Arrival city: Killeen
+02:11am
+04:8am
+Departure: Bryan. Arrival city: Fargo
+06:11am
+07:21am
+Departure: Nashua. Arrival city: Richland
+11:23pm
+11:23pm
+Departure: Stamford. Arrival city: GreenBay
+10:13pm
+10:8pm
+Departure: Baton_Rouge. Arrival city: Wichita
+03:18pm
+05:11pm
+Departure: San_Bernardino. Arrival city: San_Diego
+05:0am
+07:9am
+Departure: Bloomington. Arrival city: Philadelphia
+06:10pm
+07:15pm
+Departure: Reading. Arrival city: Madison
+11:8pm
+11:19pm
+Departure: Normal. Arrival city: Lowell
+11:1am
+11:8am
+Departure: Bethlehem. Arrival city: Ocala
+12:14am
+02:9pm
+Departure: Aberdeen. Arrival city: Olathe
+12:19am
+12:11am
+Departure: Monroe. Arrival city: Johnson_City
+11:8pm
+11:23pm
+Departure: North_Las_Vegas. Arrival city: Manchester
+09:21am
+10:8am
+Departure: Dallas. Arrival city: Utica
+03:7am
+03:11am
+Departure: New_Bedford. Arrival city: Inglewood
+04:23pm
+07:20pm
+Departure: Chandler. Arrival city: Coral_Springs
+02:10am
+03:14am
+Departure: San_Diego. Arrival city: Denver
+11:22pm
+11:23pm
+Departure: Bellevue. Arrival city: Beaumont
+04:22am
+05:9am
+Departure: Anchorage. Arrival city: Lake_Charles
+05:5pm
+07:23pm
+Departure: Lancaster. Arrival city: Redding
+02:1pm
+02:4pm
+Departure: Aberdeen. Arrival city: Port_St._Lucie
+08:1am
+11:2am
+Departure: Grayslake. Arrival city: Lexington
+03:10am
+04:11am
+Departure: North_Las_Vegas. Arrival city: Hayward
+05:16am
+06:16am
+Departure: Pomona. Arrival city: Santa_Cruz
+07:15pm
+09:22pm
+Departure: Charlotte. Arrival city: Jefferson
+06:11pm
+07:3pm
+Departure: Fort_Smith. Arrival city: Rockford
+02:9pm
+05:19pm
+Departure: Gilbert. Arrival city: Lorain
+12:1am
+01:19am
+Departure: Santa_Rosa. Arrival city: Birmingham
+08:9am
+08:5am
+Departure: Seattle. Arrival city: Richland
+12:15am
+01:6am
+Departure: Elk_Grove. Arrival city: Victorville
+03:19am
+05:15am
+Departure: Norman. Arrival city: Milwaukee
+05:22pm
+07:14pm
+Departure: Normal. Arrival city: St._Louis
+11:9pm
+11:23pm
+Departure: Gilbert. Arrival city: Sioux_Falls
+02:12pm
+03:18pm
+Departure: Monroe. Arrival city: Newport_News
+02:7am
+05:19am
+Departure: Flint. Arrival city: Mission_Viejo
+11:11pm
+11:10pm
+Departure: Las_Cruces. Arrival city: Kalamazoo
+12:4am
+02:9am
+Departure: Lincoln. Arrival city: Newport_News
+05:8am
+06:16am
+Departure: Fitchburg. Arrival city: Havre_de_Grace
+04:19am
+06:15am
+Departure: North_Port. Arrival city: Aberdeen
+11:7pm
+11:23pm
+Departure: Minneapolis. Arrival city: Visalia
+08:23am
+09:15am
+Departure: Tacoma. Arrival city: Salem
+03:13am
+04:8am
+Departure: Normal. Arrival city: Durham
+02:16pm
+05:20pm
+Departure: Spokane. Arrival city: Garland
+08:0am
+09:23am
+Departure: Vero_Beach. Arrival city: Atlantic_City
+01:22am
+02:3am
+Departure: Pasadena. Arrival city: Barnstable
+08:13am
+09:11am
+Departure: Fayetteville. Arrival city: Abilene
+01:15pm
+02:10pm
+Departure: Waco. Arrival city: Durham
+01:18am
+02:6am
+Departure: Gulfport-Biloxi. Arrival city: Macon
+12:7am
+01:17am
+Departure: Kissimmee. Arrival city: GreenBay
+11:20am
+12:14am
+Departure: Topeka. Arrival city: Barnstable
+03:19am
+06:1am
+Departure: Kailua. Arrival city: Saint_Petersburg
+11:22pm
+11:23pm
+Departure: Lancaster. Arrival city: Lowell
+03:10pm
+05:17pm
+Departure: Fresno. Arrival city: San_Diego
+12:7am
+01:17pm
+Departure: Deltona. Arrival city: Fayetteville
+01:1pm
+03:16pm
+Departure: Oakland. Arrival city: Durham
+06:18am
+09:4am
+Departure: Gainesville. Arrival city: Fargo
+04:11am
+07:16am
+Departure: Newport_News. Arrival city: Gulfport-Biloxi
+05:10am
+08:22am
+Departure: Lancaster. Arrival city: Anaheim
+05:20pm
+07:22pm
+Departure: Merced. Arrival city: Orlando
+02:13pm
+05:4pm
+Departure: Montgomery. Arrival city: Miami
+02:16am
+03:10am
+Departure: Charlotte. Arrival city: Macon
+06:3am
+08:8am
+Departure: Howell. Arrival city: Moreno_Valley
+03:14am
+05:12am
+Departure: Medford. Arrival city: Bloomington
+08:16pm
+08:18pm
+Departure: Fort_Smith. Arrival city: Mission_Viejo
+02:6am
+03:2am
+Departure: Hollywood. Arrival city: Spartanburg
+02:10pm
+03:4pm
+Departure: Riverside. Arrival city: Grayslake
+01:23am
+02:22am
+Departure: Bellevue. Arrival city: Dallas
+11:15am
+01:13pm
+Departure: St._Paul. Arrival city: Savannah
+03:18am
+04:11am
+Departure: New_Bedford. Arrival city: Columbus
+05:19am
+05:6am
+Departure: Hollywood. Arrival city: Monroe
+03:3pm
+06:13pm
+Departure: Minneapolis. Arrival city: Lewisville
+07:13am
+09:20am
+Departure: New_York_City. Arrival city: Lorain
+05:3pm
+08:23pm
+Departure: Modesto. Arrival city: Bloomington
+11:18pm
+11:23pm
+Departure: Fort_Worth. Arrival city: Orem
+06:22pm
+08:7pm
+Departure: Leominster. Arrival city: Waterloo
+08:2pm
+08:20pm
+Departure: Port_St._Lucie. Arrival city: Laredo
+12:5am
+12:13am
+Departure: San_Buenaventura. Arrival city: Westminster
+05:9pm
+08:9pm
+Departure: New_York_City. Arrival city: Chesapeake
+07:18pm
+09:21pm
+Departure: Oakland. Arrival city: Bremerton
+11:22pm
+11:23pm
+Departure: Pompano_Beach. Arrival city: Minneapolis
+12:3am
+12:19am
+Departure: Yonkers. Arrival city: Merced
+12:18am
+03:9am
+Departure: Sebastian. Arrival city: Waco
+04:0am
+05:9am
+Departure: Irving. Arrival city: Fremont
+02:15am
+02:2am
+Departure: Hayward. Arrival city: Cary
+04:10pm
+06:13pm
+Departure: Norwalk. Arrival city: Poughkeepsie
+12:14am
+01:22am
+Departure: Pensacola. Arrival city: Jacksonville
+09:2pm
+11:23pm
+Departure: Poughkeepsie. Arrival city: Fort_Worth
+10:11pm
+11:23pm
+Departure: Corona. Arrival city: Orlando
+12:8am
+02:0am
+Departure: Spartanburg. Arrival city: Normal
+12:0am
+01:15am
+Departure: Allentown. Arrival city: Olympia
+09:3am
+09:17am
+Departure: Tuscaloosa. Arrival city: Irvine
+02:8am
+04:6am
+Departure: Bethlehem. Arrival city: Stamford
+07:19pm
+08:6pm
+Departure: Philadelphia. Arrival city: Gainesville
+01:13am
+03:11am
+Departure: Savannah. Arrival city: Vero_Beach
+01:2am
+01:13am
+Departure: Pembroke_Pines. Arrival city: Johnson_City
+06:4pm
+07:21pm
+Departure: Wilmington. Arrival city: Huntington_Beach
+04:8am
+07:0am
+Departure: Poughkeepsie. Arrival city: Irving
+12:1am
+12:16am
+Departure: Kalamazoo. Arrival city: Fargo
+10:8am
+12:8am
+Departure: Memphis. Arrival city: Moreno_Valley
+07:7pm
+09:0pm
+Departure: Richland. Arrival city: Marina
+04:19am
+06:7am
+Departure: Bryan. Arrival city: Hollywood
+09:3am
+10:21am
+Departure: Pensacola. Arrival city: Torrance
+07:17pm
+07:20pm
+Departure: Olathe. Arrival city: Denver
+02:23am
+04:0am
+Departure: Norwalk. Arrival city: Spartanburg
+09:17pm
+11:23pm
+Departure: Bethlehem. Arrival city: Denver
+04:11am
+07:9am
+Departure: Norwalk. Arrival city: Aberdeen
+03:22pm
+04:5pm
+Departure: Merced. Arrival city: Billings
+12:6am
+12:21am
+Departure: Kansas_City. Arrival city: Indianapolis
+08:20pm
+10:9pm
+Departure: Medford. Arrival city: Thousand_Oaks
+06:10pm
+07:22pm
+Departure: North_Las_Vegas. Arrival city: Deltona
+06:3am
+07:20am
+Departure: Sebastian. Arrival city: Thousand_Oaks
+05:0pm
+07:7pm
+Departure: Fremont. Arrival city: Kansas_City
+11:21pm
+11:21pm
+Departure: Poughkeepsie. Arrival city: Gainesville
+01:12pm
+03:20pm
+Departure: Portland. Arrival city: Fitchburg
+08:9am
+10:1am
+Departure: Palmdale. Arrival city: Port_St._Lucie
+06:12am
+08:19am
+Departure: Green_Bay. Arrival city: Merced
+10:10pm
+10:21pm
+Departure: Bellevue. Arrival city: Bremerton
+05:7am
+07:19am
+Departure: Cincinnati. Arrival city: Mesa
+09:16pm
+11:23pm
+Departure: Vancouver. Arrival city: South_Bend
+04:7pm
+05:2pm
+Departure: San_Buenaventura. Arrival city: Monroe
+02:15am
+04:2am
+Departure: Springfield. Arrival city: Thousand_Oaks
+11:18pm
+11:23pm
+Departure: Gulfport-Biloxi. Arrival city: Mobile
+09:12am
+09:18am
+Departure: San_Antonio. Arrival city: New_York_City
+01:21am
+02:6am
+Departure: Fort_Wayne. Arrival city: Bakersfield
+09:11am
+12:19am
+Departure: Lansing. Arrival city: Bel_Air
+07:13pm
+09:23pm
+Departure: Savannah. Arrival city: Lincoln
+05:1am
+08:1am
+Departure: Saint_Petersburg. Arrival city: Seattle
+09:9am
+12:9am
+Departure: Fresno. Arrival city: Fort_Wayne
+08:23pm
+10:12pm
+Departure: Huntington_Beach. Arrival city: Killeen
+07:4am
+08:0am
+Departure: Bonita_Springs. Arrival city: Sioux_Falls
+11:4pm
+11:23pm
+Departure: GreenBay. Arrival city: Minneapolis
+09:10am
+10:2am
+Departure: Garden_Grove. Arrival city: San_Buenaventura
+08:0am
+09:0am
+Departure: Gulfport-Biloxi. Arrival city: Sioux_Falls
+01:8am
+04:11am
+Departure: Leominster. Arrival city: Joliet
+09:8pm
+11:23pm
+Departure: Abilene. Arrival city: Durham
+07:21am
+07:18am
+Departure: Johnson_City. Arrival city: Harrisburg
+08:14pm
+08:20pm
+Departure: Billings. Arrival city: Anaheim
+09:16am
+11:10am
+Departure: Chandler. Arrival city: Olympia
+12:18am
+01:6pm
+Departure: Burlington. Arrival city: Fayetteville
+09:6am
+10:22am
+Departure: Naples. Arrival city: Lakeland
+10:6am
+12:14am
+Departure: Houma. Arrival city: Kalamazoo
+12:14am
+02:5am
+Departure: Sioux_Falls. Arrival city: Santa_Rosa
+08:21pm
+09:4pm
+Departure: Stamford. Arrival city: Athens
+07:20pm
+08:17pm
+Departure: Bremerton. Arrival city: Miramar
+04:8pm
+07:5pm
+Departure: Kansas_City. Arrival city: Port_Saint_Lucie
+11:7am
+01:2pm
+Departure: Springfield. Arrival city: El_Paso
+10:0am
+10:21am
+Departure: Birmingham. Arrival city: Hesperia
+11:12pm
+11:23pm
+Departure: Redding. Arrival city: Bel_Air
+02:3am
+02:12am
+Departure: San_Buenaventura. Arrival city: Burbank
+10:6am
+12:9am
+Departure: Bellevue. Arrival city: Lakeland
+04:20pm
+07:8pm
+Departure: Kalamazoo. Arrival city: Santa_Rosa
+08:18pm
+10:6pm
+Departure: Norman. Arrival city: Boise_City
+12:6am
+02:3am
+Departure: Paterson. Arrival city: Abilene
+03:13am
+04:0am
+Departure: Rockford. Arrival city: Hesperia
+04:7pm
+06:0pm
+Departure: Huntington_Beach. Arrival city: Atlantic_City
+07:5am
+07:12am
+Departure: San_Antonio. Arrival city: Winter_Haven
+01:18pm
+02:11pm
+Departure: Clearwater. Arrival city: Merced
+06:11am
+08:11am
+Departure: El_Paso. Arrival city: Akron
+07:20pm
+10:23pm
+Departure: Pomona. Arrival city: Chattanooga
+11:0am
+02:8pm
+Departure: Rockford. Arrival city: Richmond_County
+02:2am
+02:14am
+Departure: Nashua. Arrival city: Norwalk
+08:11am
+08:9am
+Departure: Burbank. Arrival city: Clarksville
+03:5pm
+04:6pm
+Departure: Fargo. Arrival city: Lincoln
+05:7am
+08:9am
+Departure: Waterloo. Arrival city: Chattanooga
+12:16am
+01:17am
+Departure: Colorado_Springs. Arrival city: Abilene
+10:9am
+12:9am
+Departure: Sioux_Falls. Arrival city: Harrisburg
+05:15am
+06:6am
+Departure: Columbus. Arrival city: Abilene
+11:20pm
+11:23pm
+Departure: Nashua. Arrival city: Bakersfield
+12:2am
+03:13am
+Departure: Akron. Arrival city: Richmond_County
+11:2am
+11:23am
+Departure: Newark. Arrival city: Wilmington
+10:9pm
+11:23pm
+Departure: Mobile. Arrival city: Vero_Beach
+05:11am
+06:23am
+Departure: Lakeland. Arrival city: Inglewood
+09:9am
+11:19am
+Departure: El_Paso. Arrival city: Barnstable
+02:7am
+03:20am
+Departure: Grayslake. Arrival city: Kalamazoo
+07:1pm
+07:2pm
+Departure: Fort_Wayne. Arrival city: Fort_Worth
+05:21pm
+07:14pm
+Departure: Pomona. Arrival city: Akron
+05:4pm
+08:1pm
+Departure: Springfield. Arrival city: Waterloo
+11:23am
+01:15pm
+Departure: Reno. Arrival city: Lansing
+11:16pm
+11:19pm
+Departure: Abilene. Arrival city: Johnson_City
+02:2am
+04:5am
+Departure: Joliet. Arrival city: Victorville
+11:19pm
+11:23pm
+Departure: Aberdeen. Arrival city: Lancaster
+03:0am
+05:8am
+Departure: Oklahoma_City. Arrival city: Arlington
+10:5pm
+11:19pm
+Departure: Fayetteville. Arrival city: Philadelphia
+12:1am
+02:1pm
+Departure: Daly_City. Arrival city: Gilbert
+02:11am
+04:20am
+Departure: El_Paso. Arrival city: Killeen
+07:10am
+10:21am
+Departure: Myrtle_Beach. Arrival city: Buffalo
+01:17am
+03:14am
+Departure: Inglewood. Arrival city: Manchester
+09:0am
+10:5am
+Departure: Portsmouth. Arrival city: Inglewood
+03:0am
+04:3am
+Departure: Hialeah. Arrival city: Yonkers
+08:17am
+08:0am
+Departure: Inglewood. Arrival city: Boise_City
+05:16am
+06:3am
+Departure: Sioux_Falls. Arrival city: Columbus
+09:1am
+10:18am
+Departure: Aberdeen. Arrival city: Chandler
+02:1pm
+05:4pm
+Departure: Hollywood. Arrival city: Dallas
+01:18pm
+02:3pm
+Departure: Brighton. Arrival city: Daytona_Beach
+11:18am
+12:6am
+Departure: Frederick. Arrival city: Anchorage
+05:14am
+07:13am
+Departure: Pittsburgh. Arrival city: Minneapolis
+06:21am
+09:20am
+Departure: Grayslake. Arrival city: College_Station
+10:19pm
+11:23pm
+Departure: Macon. Arrival city: Aberdeen
+12:14am
+03:20pm
+Departure: Clearwater. Arrival city: Kissimmee
+12:4am
+03:11pm
+Departure: Spokane. Arrival city: Norfolk
+12:18am
+01:12am
+Departure: Muskegon. Arrival city: Rancho_Cucamonga
+07:18am
+08:0am
+Departure: San_Bernardino. Arrival city: Lincoln
+12:8am
+01:23pm
+Departure: Brownsville. Arrival city: Louisville
+04:15am
+05:18am
+Departure: Cincinnati. Arrival city: McAllen
+09:19pm
+11:8pm
+Departure: San_Bernardino. Arrival city: San_Buenaventura
+06:10pm
+08:4pm
+Departure: Pasadena. Arrival city: Providence
+05:10am
+07:20am
+Departure: Macon. Arrival city: Beaumont
+09:13pm
+09:23pm
+Departure: Beaumont. Arrival city: Las_Vegas
+07:22am
+10:21am
+Departure: San_Bernardino. Arrival city: Akron
+10:23pm
+10:4pm
+Departure: Norfolk. Arrival city: Port_Saint_Lucie
+11:21pm
+11:23pm
+Departure: Palm_Bay. Arrival city: Clarksville
+07:15am
+08:14am
+Departure: Independence. Arrival city: Topeka
+08:18am
+11:6am
+Departure: Lincoln. Arrival city: Flint
+11:14pm
+11:23pm
+Departure: Hesperia. Arrival city: Brighton
+12:21am
+03:16pm
+Departure: Tacoma. Arrival city: Omaha
+11:23am
+12:6am
+Departure: Grayslake. Arrival city: Norwich
+01:5am
+02:17am
+Departure: Garden_Grove. Arrival city: Colorado_Springs
+06:11pm
+07:6pm
+Departure: Hayward. Arrival city: Anchorage
+09:7am
+10:1am
+Departure: Moreno_Valley. Arrival city: Seattle
+07:16pm
+07:14pm
+Departure: Laredo. Arrival city: Richland
+12:3am
+03:8am
+Departure: San_Bernardino. Arrival city: Winter_Haven
+04:4am
+06:18am
+Departure: Olathe. Arrival city: Rockford
+01:2pm
+02:7pm
+Departure: Hollywood. Arrival city: Huntington
+06:0pm
+07:17pm
+Departure: Trenton. Arrival city: Columbus
+10:4pm
+11:13pm
+Departure: Providence. Arrival city: Leominster
+03:7am
+04:16am
+Departure: Clarksville. Arrival city: Naples
+06:23pm
+07:1pm
+Departure: Abilene. Arrival city: Saginaw
+07:5am
+09:15am
+Departure: Portsmouth. Arrival city: St._Paul
+08:15pm
+08:20pm
+Departure: Marina. Arrival city: Bethlehem
+10:22am
+01:2pm
+Departure: Anchorage. Arrival city: Springfield
+11:9am
+01:19pm
+Departure: Bonita_Springs. Arrival city: Newport_News
+10:0pm
+11:20pm
+Departure: San_Antonio. Arrival city: Visalia
+03:14pm
+04:21pm
+Departure: Ocala. Arrival city: Fresno
+11:3pm
+11:7pm
+Departure: Madison. Arrival city: Merced
+08:11am
+11:19am
+Departure: Springfield. Arrival city: Gulfport-Biloxi
+11:22pm
+11:23pm
+Departure: Daly_City. Arrival city: Pomona
+06:1am
+07:22am
+Departure: Lorain. Arrival city: Jacksonville
+03:21pm
+03:16pm
+Departure: Nashua. Arrival city: Omaha
+03:1am
+06:22am
+Departure: Birmingham. Arrival city: Daytona_Beach
+01:6pm
+01:14pm
+Departure: Olathe. Arrival city: Brownsville
+03:12pm
+06:15pm
+Departure: Denver. Arrival city: Salem
+10:19am
+12:5am
+Departure: Hampton. Arrival city: Mesquite
+02:6pm
+05:6pm
+Departure: San_Bernardino. Arrival city: Lansing
+12:2am
+02:21am
+Departure: Gainesville. Arrival city: Tuscaloosa
+01:1am
+03:1am
+Departure: Abilene. Arrival city: Charlotte
+03:22pm
+03:15pm
+Departure: Billings. Arrival city: Fremont
+08:2pm
+10:11pm
+Departure: Denver. Arrival city: Johnson_City
+11:7pm
+11:11pm
+Departure: Clarksville. Arrival city: West_Covina
+02:2pm
+02:20pm
+Departure: GreenBay. Arrival city: Spartanburg
+02:10pm
+04:7pm
+Departure: Arlington. Arrival city: Austin
+02:15am
+04:10am
+Departure: Hickory. Arrival city: Normal
+11:2pm
+11:23pm
+Departure: Memphis. Arrival city: Pasadena
+04:11pm
+07:11pm
+Departure: Salem. Arrival city: Wilmington
+11:17pm
+11:23pm
+Departure: Brighton. Arrival city: Normal
+04:5pm
+04:8pm
+Departure: Independence. Arrival city: Apple_Valley
+02:2pm
+03:19pm
+Departure: Tuscaloosa. Arrival city: McAllen
+05:20pm
+05:6pm
+Departure: College_Station. Arrival city: Pueblo
+10:23am
+01:5pm
+Departure: Fitchburg. Arrival city: Richland
+03:13am
+05:23am
+Departure: Escondido. Arrival city: Palm_Bay
+05:4am
+08:21am
+Departure: Utica. Arrival city: Redding
+05:17pm
+07:5pm
+Departure: St._Paul. Arrival city: Pasadena
+09:4am
+12:16am
+Departure: Elk_Grove. Arrival city: Fort_Wayne
+05:3am
+07:5am
+Departure: Oakland. Arrival city: Bellevue
+11:13am
+01:8pm
+Departure: Houma. Arrival city: Bloomington
+07:21pm
+09:9pm
+Departure: Harrisburg. Arrival city: Norman
+03:21pm
+06:9pm
+Departure: Lewisville. Arrival city: Sioux_Falls
+02:0am
+02:21am
+Departure: Fort_Smith. Arrival city: Huntington
+06:17am
+06:6am
+Departure: Milwaukee. Arrival city: Fitchburg
+06:21am
+08:16am
+Departure: Louisville. Arrival city: Buffalo
+04:12pm
+07:3pm
+Departure: Waco. Arrival city: Norman
+08:8am
+11:11am
+Departure: Lorain. Arrival city: Dayton
+04:5pm
+04:11pm
+Departure: Houston. Arrival city: Bellevue
+09:20pm
+10:10pm
+Departure: Green_Bay. Arrival city: Newark
+07:23am
+10:22am
+Departure: Milwaukee. Arrival city: Atlantic_City
+06:5am
+08:6am
+Departure: Spartanburg. Arrival city: Deltona
+11:7pm
+11:23pm
+Departure: San_Buenaventura. Arrival city: Rockford
+05:20am
+05:23am
+Departure: Huntington_Beach. Arrival city: Havre_de_Grace
+08:18pm
+09:21pm
+Departure: Knoxville. Arrival city: Bel_Air
+06:10pm
+06:18pm
+Departure: Vero_Beach. Arrival city: Santa_Rosa
+03:7am
+05:14am
+Departure: Allentown. Arrival city: GreenBay
+08:13am
+10:0am
+Departure: Denver. Arrival city: Syracuse
+10:9pm
+11:23pm
+Departure: Westminster. Arrival city: Fitchburg
+07:15pm
+10:1pm
+Departure: San_Buenaventura. Arrival city: McHenry
+12:10am
+02:6pm
+Departure: Independence. Arrival city: Port_St._Lucie
+09:7am
+11:4am
+Departure: Thousand_Oaks. Arrival city: Wilmington
+05:12pm
+06:2pm
+Departure: Denver. Arrival city: Mesa
+07:15am
+10:2am
+Departure: Simi_Valley. Arrival city: Orlando
+09:17am
+11:18am
+Departure: Mesquite. Arrival city: Gainesville
+07:12pm
+08:12pm
+Departure: Mission_Viejo. Arrival city: Murfreesboro
+06:9pm
+08:4pm
+Departure: Las_Cruces. Arrival city: Saginaw
+02:19am
+04:23am
+Departure: Hickory. Arrival city: Barnstable
+10:6am
+12:1am
+Departure: Las_Cruces. Arrival city: Fort_Wayne
+12:6am
+02:5pm
+Departure: Omaha. Arrival city: Spokane
+05:20pm
+06:3pm
+Departure: Thousand_Oaks. Arrival city: Havre_de_Grace
+10:5pm
+10:4pm
+Departure: Lakeland. Arrival city: Omaha
+07:5pm
+07:13pm
+Departure: Boise_City. Arrival city: Lancaster
+11:14pm
+11:23pm
+Departure: Fort_Wayne. Arrival city: Shreveport
+07:4pm
+08:23pm
+Departure: Thousand_Oaks. Arrival city: Norman
+09:22am
+12:2am
+Departure: Utica. Arrival city: Greensboro
+06:22pm
+08:1pm
+Departure: Lexington. Arrival city: Coral_Springs
+02:23am
+03:18am
+Departure: Fitchburg. Arrival city: South_Bend
+02:10pm
+05:4pm
+Departure: Aberdeen. Arrival city: Port_St._Lucie
+04:16am
+05:15am
+Departure: Hialeah. Arrival city: Corona
+07:7am
+09:14am
+Departure: Hampton. Arrival city: Norwich
+04:23pm
+06:15pm
+Departure: Bremerton. Arrival city: Lincoln
+02:8am
+02:4am
+Departure: Jefferson. Arrival city: Milwaukee
+05:14am
+07:11am
+Departure: Palmdale. Arrival city: Wilmington
+02:6am
+05:21am
+Departure: Miramar. Arrival city: Hampton
+01:19am
+01:21am
+Departure: Burlington. Arrival city: San_Buenaventura
+08:23am
+10:4am
+Departure: Clarksville. Arrival city: Pensacola
+04:1pm
+06:5pm
+Departure: Port_Saint_Lucie. Arrival city: Abilene
+05:17am
+07:17am
+Departure: Havre_de_Grace. Arrival city: Westminster
+08:1am
+08:17am
+Departure: Knoxville. Arrival city: Savannah
+07:11am
+08:22am
+Departure: Providence. Arrival city: Spartanburg
+12:14am
+03:23pm
+Departure: Arlington. Arrival city: Harrisburg
+02:5pm
+05:11pm
+Departure: Stamford. Arrival city: Spartanburg
+12:11am
+02:11am
+Departure: Daytona_Beach. Arrival city: Anaheim
+05:8am
+08:20am
+Departure: Barnstable. Arrival city: Birmingham
+08:21am
+08:4am
+Departure: Kailua. Arrival city: Westminster
+07:22am
+10:21am
+Departure: Waco. Arrival city: Spokane
+05:6pm
+07:20pm
+Departure: Colorado_Springs. Arrival city: Sebastian
+08:7am
+10:4am
+Departure: Nashua. Arrival city: Montgomery
+05:21am
+06:11am
+Departure: Alexandria. Arrival city: Olathe
+09:19pm
+11:23pm
+Departure: Joliet. Arrival city: Havre_de_Grace
+02:18pm
+03:18pm
+Departure: Louisville. Arrival city: Fort_Wayne
+04:11pm
+04:15pm
+Departure: Harrisburg. Arrival city: Santa_Rosa
+09:5pm
+11:11pm
+Departure: Lakeland. Arrival city: Normal
+03:4pm
+06:12pm
+Departure: New_York_City. Arrival city: Cincinnati
+12:7am
+01:1pm
+Departure: Newark. Arrival city: Portland
+10:6am
+11:11am
+Departure: Jefferson. Arrival city: Knoxville
+01:13am
+01:19am
+Departure: Macon. Arrival city: Port_Saint_Lucie
+09:4am
+11:3am
+Departure: Victorville. Arrival city: Tacoma
+02:16pm
+03:15pm
+Departure: Port_Orange. Arrival city: Springfield
+04:23pm
+06:10pm
+Departure: Knoxville. Arrival city: Orlando
+02:17pm
+02:0pm
+Departure: Pittsburgh. Arrival city: Daytona_Beach
+02:15pm
+02:10pm
+Departure: Rockford. Arrival city: Pittsburgh
+12:0am
+12:9am
+Departure: Abilene. Arrival city: Akron
+09:17pm
+10:5pm
+Departure: Charlotte. Arrival city: Vero_Beach
+06:12pm
+06:3pm
+Departure: Tempe. Arrival city: Stamford
+07:1am
+08:10am
+Departure: San_Diego. Arrival city: Redding
+07:14pm
+08:3pm
+Departure: Montgomery. Arrival city: Poughkeepsie
+09:5pm
+11:23pm
+Departure: Louisville. Arrival city: Naples
+12:23am
+03:2pm
+Departure: Fort_Smith. Arrival city: Chesapeake
+08:0am
+09:7am
+Departure: Corona. Arrival city: Rancho_Cucamonga
+06:4am
+09:14am
+Departure: Elkhart. Arrival city: Lincoln
+06:11am
+09:15am
+Departure: Visalia. Arrival city: Olympia
+04:10am
+07:19am
+Departure: Las_Cruces. Arrival city: Omaha
+01:6am
+01:12am
+Departure: Alexandria. Arrival city: Palmdale
+01:6am
+03:19am
+Departure: San_Antonio. Arrival city: St._Louis
+07:14pm
+09:23pm
+Departure: Howell. Arrival city: New_York_City
+11:17pm
+11:23pm
+Departure: Portsmouth. Arrival city: Syracuse
+09:21pm
+10:17pm
+Departure: Corona. Arrival city: Flint
+06:4am
+08:7am
+Departure: Cincinnati. Arrival city: Asheville
+02:21am
+02:5am
+Departure: Dallas. Arrival city: Philadelphia
+02:5am
+03:19am
+Departure: Normal. Arrival city: Bryan
+09:17pm
+09:14pm
+Departure: Mobile. Arrival city: Brownsville
+01:3am
+04:7am
+Departure: Riverside. Arrival city: North_Port
+10:3am
+11:21am
+Departure: Normal. Arrival city: Hollywood
+06:11pm
+08:0pm
+Departure: Nashua. Arrival city: Kalamazoo
+03:15am
+05:10am
+Departure: Allentown. Arrival city: Merced
+05:16am
+05:18am
+Departure: Miami. Arrival city: Norman
+03:22am
+05:1am
+Departure: Norwich. Arrival city: Manchester
+04:6pm
+04:1pm
+Departure: Johnson_City. Arrival city: Fargo
+11:11am
+11:1am
+Departure: Miramar. Arrival city: El_Paso
+08:11am
+09:21am
+Departure: Reno. Arrival city: Jefferson
+10:12pm
+11:23pm
+Departure: Myrtle_Beach. Arrival city: Dayton
+12:11am
+03:18am
+Departure: McAllen. Arrival city: Knoxville
+05:20am
+06:22am
+Departure: Buffalo. Arrival city: Pasadena
+12:15am
+02:5pm
+Departure: Greensboro. Arrival city: Aberdeen
+01:23pm
+02:10pm
+Departure: Omaha. Arrival city: Brighton
+05:6am
+06:23am
+Departure: Salem. Arrival city: Jersey_City
+09:18pm
+11:23pm
+Departure: Miami. Arrival city: Clarksville
+09:22pm
+09:1pm
+Departure: Pasadena. Arrival city: Birmingham
+12:8am
+02:13pm
+Departure: Clarksville. Arrival city: Muskegon
+02:18am
+04:3am
+Departure: Harrisburg. Arrival city: Orlando
+08:4pm
+09:12pm
+Departure: New_York_City. Arrival city: Reno
+09:12pm
+09:19pm
+Departure: Knoxville. Arrival city: New_Bedford
+09:15pm
+10:3pm
+Departure: Daytona_Beach. Arrival city: Lexington
+02:4am
+04:2am
+Departure: Greensboro. Arrival city: Naples
+10:13pm
+11:23pm
+Departure: Wichita. Arrival city: Grayslake
+11:12pm
+11:23pm
+Departure: Knoxville. Arrival city: Miramar
+10:14am
+01:10pm
+Departure: Madison. Arrival city: GreenBay
+09:22am
+10:20am
+Departure: Wilmington. Arrival city: Athens
+02:21pm
+03:10pm
+Departure: Fort_Worth. Arrival city: Waco
+02:20pm
+03:19pm
+Departure: Macon. Arrival city: Nashua
+01:11am
+04:19am
+Departure: Palm_Bay. Arrival city: Olathe
+06:2am
+06:13am
+Departure: Victorville. Arrival city: Canton
+06:2pm
+08:22pm
+Departure: San_Diego. Arrival city: Medford
+03:21pm
+04:10pm
+Departure: Sebastian. Arrival city: Escondido
+02:5am
+04:6am
+Departure: Lake_Charles. Arrival city: Thousand_Oaks
+11:17pm
+11:23pm
+Departure: Stamford. Arrival city: Winter_Haven
+10:14pm
+11:8pm
+Departure: Naperville. Arrival city: Laredo
+10:15am
+11:18am
+Departure: Lexington. Arrival city: Medford
+09:2am
+10:19am
+Departure: Kansas_City. Arrival city: Bellevue
+07:17pm
+09:13pm
+Departure: Muskegon. Arrival city: Naples
+03:22am
+06:0am
+Departure: St._Louis. Arrival city: Kailua
+05:11pm
+07:7pm
+Departure: Richmond_County. Arrival city: Chandler
+06:15pm
+09:18pm
+Departure: Joliet. Arrival city: Minneapolis
+07:22am
+09:23am
+Departure: McAllen. Arrival city: Pensacola
+04:4pm
+06:6pm
+Departure: Waterloo. Arrival city: Colorado_Springs
+06:14pm
+07:3pm
+Departure: Reno. Arrival city: Pueblo
+03:19am
+04:9am
+Departure: Deltona. Arrival city: Lexington
+11:16am
+01:6pm
+Departure: Fort_Smith. Arrival city: Simi_Valley
+05:19pm
+07:12pm
+Departure: Grand_Rapids. Arrival city: Cambridge
+06:9pm
+07:10pm
+Departure: Orem. Arrival city: North_Port
+03:23am
+04:19am
+Departure: Tuscaloosa. Arrival city: Tempe
+09:17pm
+10:11pm
+Departure: Corona. Arrival city: Burlington
+08:5am
+09:6am
+Departure: Fitchburg. Arrival city: Lancaster
+01:18am
+02:2am
+Departure: Palm_Bay. Arrival city: Saginaw
+10:6am
+11:16am
+Departure: Orem. Arrival city: Pueblo
+10:5pm
+11:23pm
+Departure: Fremont. Arrival city: Rockford
+09:12pm
+10:22pm
+Enter a departure city.
+Enter a destination city.
+Enter the earliest acceptable departure time.
+1:10am
+temp test Orem
+Temp Before : 0x555cd9cf2020
+Type either 'any', 'earliest', or 'cheapest'
+Entered any
+TEMP: Orem
+Iter: North_Port
+Iter: Pueblo
+TEMP: North_Port
+Iter: Aberdeen
+TEMP: Pueblo
+Iter: Glendale
+TEMP: Aberdeen
+Iter: Olathe
+Iter: Port_St._Lucie
+Iter: Lancaster
+Iter: Chandler
+Iter: Port_St._Lucie
+TEMP: Glendale
+TEMP: Port_St._Lucie
+Iter: Chesapeake
+Iter: Laredo
+TEMP: Lancaster
+Iter: Newport_News
+Iter: Redding
+Iter: Lowell
+Iter: Anaheim
+TEMP: Chandler
+Iter: Coral_Springs
+Iter: Olympia
+TEMP: Port_St._Lucie
+Iter: Chesapeake
+Iter: Laredo
+TEMP: Chesapeake
+TEMP: Newport_News
+Iter: Gulfport-Biloxi
+TEMP: Redding
+Iter: Bel_Air
+TEMP: Lowell
+TEMP: Anaheim
+TEMP: Coral_Springs
+TEMP: Olympia
+TEMP: Chesapeake
+TEMP: Gulfport-Biloxi
+Iter: Macon
+Iter: Mobile
+Iter: Sioux_Falls
+TEMP: Bel_Air
+TEMP: Macon
+Iter: Aberdeen
+Iter: Beaumont
+Iter: Port_Saint_Lucie
+Iter: Nashua
+TEMP: Mobile
+Iter: Vero_Beach
+Iter: Brownsville
+TEMP: Sioux_Falls
+Iter: Santa_Rosa
+Iter: Harrisburg
+Iter: Columbus
+TEMP: Beaumont
+Iter: Las_Vegas
+TEMP: Port_Saint_Lucie
+Iter: Joliet
+Iter: Abilene
+TEMP: Nashua
+Iter: Richland
+Iter: Norwalk
+Iter: Bakersfield
+Iter: Omaha
+Iter: Montgomery
+Iter: Kalamazoo
+TEMP: Vero_Beach
+Iter: Atlantic_City
+Iter: Santa_Rosa
+TEMP: Brownsville
+Iter: Louisville
+TEMP: Santa_Rosa
+Iter: Murfreesboro
+Iter: Birmingham
+TEMP: Harrisburg
+Iter: Norman
+Iter: Santa_Rosa
+Iter: Orlando
+TEMP: Columbus
+Iter: Abilene
+TEMP: Las_Vegas
+Iter: Houston
+TEMP: Joliet
+Iter: Victorville
+Iter: Havre_de_Grace
+Iter: Minneapolis
+TEMP: Abilene
+Iter: Huntington
+Iter: Independence
+Iter: Durham
+Iter: Johnson_City
+Iter: Saginaw
+Iter: Charlotte
+Iter: Akron
+TEMP: Richland
+Iter: Simi_Valley
+Iter: Killeen
+Iter: Marina
+TEMP: Norwalk
+Iter: Poughkeepsie
+Iter: Spartanburg
+Iter: Aberdeen
+TEMP: Bakersfield
+TEMP: Omaha
+Iter: Simi_Valley
+Iter: Spokane
+Iter: Brighton
+TEMP: Montgomery
+Iter: Miami
+Iter: Poughkeepsie
+TEMP: Kalamazoo
+Iter: Bakersfield
+Iter: Fargo
+Iter: Santa_Rosa
+TEMP: Atlantic_City
+TEMP: Santa_Rosa
+Iter: Murfreesboro
+Iter: Birmingham
+TEMP: Louisville
+Iter: Oakland
+Iter: Buffalo
+Iter: Fort_Wayne
+Iter: Naples
+TEMP: Murfreesboro
+TEMP: Birmingham
+Iter: Tallahassee
+Iter: Hesperia
+Iter: Daytona_Beach
+TEMP: Norman
+Iter: Milwaukee
+Iter: Boise_City
+TEMP: Orlando
+TEMP: Abilene
+Iter: Huntington
+Iter: Independence
+Iter: Durham
+Iter: Johnson_City
+Iter: Saginaw
+Iter: Charlotte
+Iter: Akron
+TEMP: Houston
+Iter: Bellevue
+TEMP: Victorville
+Iter: Tacoma
+Iter: Canton
+TEMP: Havre_de_Grace
+Iter: Houston
+Iter: Westminster
+TEMP: Minneapolis
+Iter: Visalia
+Iter: Lewisville
+TEMP: Huntington
+TEMP: Independence
+Iter: Topeka
+Iter: Apple_Valley
+Iter: Port_St._Lucie
+TEMP: Durham
+TEMP: Johnson_City
+Iter: Harrisburg
+Iter: Fargo
+TEMP: Saginaw
+Iter: Minneapolis
+TEMP: Charlotte
+Iter: Jefferson
+Iter: Macon
+Iter: Vero_Beach
+TEMP: Akron
+Iter: Richmond_County
+TEMP: Simi_Valley
+Iter: Orlando
+TEMP: Killeen
+TEMP: Marina
+Iter: Portland
+Iter: Bethlehem
+TEMP: Poughkeepsie
+Iter: Antioch
+Iter: Murfreesboro
+Iter: Fort_Worth
+Iter: Irving
+Iter: Gainesville
+TEMP: Spartanburg
+Iter: Naples
+Iter: Normal
+Iter: Deltona
+TEMP: Simi_Valley
+Iter: Orlando
+TEMP: Spokane
+Iter: Garland
+Iter: Norfolk
+TEMP: Brighton
+Iter: Daytona_Beach
+Iter: Normal
+TEMP: Miami
+Iter: Killeen
+Iter: Norman
+Iter: Clarksville
+TEMP: Poughkeepsie
+Iter: Antioch
+Iter: Murfreesboro
+Iter: Fort_Worth
+Iter: Irving
+Iter: Gainesville
+TEMP: Murfreesboro
+TEMP: Birmingham
+Iter: Tallahassee
+Iter: Hesperia
+Iter: Daytona_Beach
+TEMP: Oakland
+Iter: Durham
+Iter: Bremerton
+Iter: Bellevue
+TEMP: Buffalo
+Iter: Pasadena
+TEMP: Fort_Wayne
+Iter: Bakersfield
+Iter: Fort_Worth
+Iter: Shreveport
+TEMP: Naples
+Iter: Lakeland
+TEMP: Tallahassee
+TEMP: Hesperia
+Iter: Brighton
+TEMP: Daytona_Beach
+Iter: Anaheim
+Iter: Lexington
+TEMP: Milwaukee
+Iter: San_Bernardino
+Iter: Fitchburg
+Iter: Atlantic_City
+TEMP: Boise_City
+Iter: Lancaster
+TEMP: Huntington
+TEMP: Independence
+Iter: Topeka
+Iter: Apple_Valley
+Iter: Port_St._Lucie
+TEMP: Durham
+TEMP: Johnson_City
+Iter: Harrisburg
+Iter: Fargo
+TEMP: Saginaw
+Iter: Minneapolis
+TEMP: Charlotte
+Iter: Jefferson
+Iter: Macon
+Iter: Vero_Beach
+TEMP: Akron
+Iter: Richmond_County
+TEMP: Bellevue
+Iter: Beaumont
+Iter: Dallas
+Iter: Bremerton
+Iter: Lakeland
+TEMP: Tacoma
+Iter: Gainesville
+Iter: Salem
+Iter: Omaha
+TEMP: Canton
+TEMP: Westminster
+Iter: Fitchburg
+TEMP: Visalia
+Iter: Spokane
+Iter: Olympia
+TEMP: Lewisville
+Iter: Lowell
+Iter: Sioux_Falls
+TEMP: Topeka
+Iter: Barnstable
+TEMP: Apple_Valley
+TEMP: Fargo
+Iter: Lincoln
+TEMP: Jefferson
+Iter: Milwaukee
+Iter: Knoxville
+TEMP: Richmond_County
+Iter: Cary
+Iter: Chandler
+TEMP: Portland
+Iter: Fitchburg
+TEMP: Bethlehem
+Iter: Orem
+Iter: Ocala
+Iter: Stamford
+Iter: Denver
+TEMP: Antioch
+TEMP: Fort_Worth
+Iter: Orem
+Iter: Waco
+TEMP: Gainesville
+Iter: Fargo
+Iter: Tuscaloosa
+TEMP: Naples
+Iter: Lakeland
+TEMP: Normal
+Iter: Lowell
+Iter: St._Louis
+Iter: Durham
+Iter: Bryan
+Iter: Hollywood
+TEMP: Deltona
+Iter: Fayetteville
+Iter: Lexington
+TEMP: Garland
+TEMP: Norfolk
+Iter: Port_Saint_Lucie
+TEMP: Normal
+Iter: Lowell
+Iter: St._Louis
+Iter: Durham
+Iter: Bryan
+Iter: Hollywood
+TEMP: Clarksville
+Iter: Naples
+Iter: West_Covina
+Iter: Pensacola
+Iter: Muskegon
+TEMP: Antioch
+TEMP: Fort_Worth
+Iter: Orem
+Iter: Waco
+TEMP: Gainesville
+Iter: Fargo
+Iter: Tuscaloosa
+TEMP: Tallahassee
+TEMP: Hesperia
+Iter: Brighton
+TEMP: Daytona_Beach
+Iter: Anaheim
+Iter: Lexington
+TEMP: Bremerton
+Iter: Miramar
+Iter: Lincoln
+TEMP: Bellevue
+Iter: Beaumont
+Iter: Dallas
+Iter: Bremerton
+Iter: Lakeland
+TEMP: Pasadena
+Iter: Barnstable
+Iter: Providence
+Iter: Birmingham
+TEMP: Fort_Worth
+Iter: Orem
+Iter: Waco
+TEMP: Shreveport
+TEMP: Lexington
+Iter: Coral_Springs
+Iter: Medford
+TEMP: San_Bernardino
+Iter: San_Diego
+Iter: Lincoln
+Iter: San_Buenaventura
+Iter: Akron
+Iter: Winter_Haven
+Iter: Lansing
+TEMP: Fitchburg
+Iter: Clearwater
+Iter: Havre_de_Grace
+Iter: Richland
+Iter: South_Bend
+Iter: Lancaster
+TEMP: Topeka
+Iter: Barnstable
+TEMP: Apple_Valley
+TEMP: Fargo
+Iter: Lincoln
+TEMP: Jefferson
+Iter: Milwaukee
+Iter: Knoxville
+TEMP: Richmond_County
+Iter: Cary
+Iter: Chandler
+TEMP: Dallas
+Iter: Knoxville
+Iter: Utica
+Iter: Philadelphia
+TEMP: Bremerton
+Iter: Miramar
+Iter: Lincoln
+TEMP: Lakeland
+Iter: Inglewood
+Iter: Omaha
+Iter: Normal
+TEMP: Salem
+Iter: Wilmington
+Iter: Jersey_City
+TEMP: Fitchburg
+Iter: Clearwater
+Iter: Havre_de_Grace
+Iter: Richland
+Iter: South_Bend
+Iter: Lancaster
+TEMP: Barnstable
+Iter: Birmingham
+TEMP: Lincoln
+Iter: Newport_News
+Iter: Flint
+TEMP: Knoxville
+Iter: Bel_Air
+Iter: Savannah
+Iter: Orlando
+Iter: New_Bedford
+Iter: Miramar
+TEMP: Fitchburg
+Iter: Clearwater
+Iter: Havre_de_Grace
+Iter: Richland
+Iter: South_Bend
+Iter: Lancaster
+TEMP: Ocala
+Iter: Olympia
+Iter: Fresno
+TEMP: Stamford
+Iter: GreenBay
+Iter: Athens
+Iter: Spartanburg
+Iter: Winter_Haven
+TEMP: Denver
+Iter: Salem
+Iter: Johnson_City
+Iter: Syracuse
+Iter: Mesa
+TEMP: Waco
+Iter: Durham
+Iter: Norman
+Iter: Spokane
+TEMP: Tuscaloosa
+Iter: Irvine
+Iter: McAllen
+Iter: Tempe
+TEMP: St._Louis
+Iter: Spartanburg
+Iter: Panama_City
+Iter: Kailua
+TEMP: Bryan
+Iter: Independence
+Iter: Thousand_Oaks
+Iter: Fargo
+Iter: Hollywood
+TEMP: Hollywood
+Iter: Concord
+Iter: Spartanburg
+Iter: Monroe
+Iter: Dallas
+Iter: Huntington
+TEMP: Fayetteville
+Iter: Pomona
+Iter: Abilene
+Iter: Philadelphia
+TEMP: Lexington
+Iter: Coral_Springs
+Iter: Medford
+TEMP: St._Louis
+Iter: Spartanburg
+Iter: Panama_City
+Iter: Kailua
+TEMP: Bryan
+Iter: Independence
+Iter: Thousand_Oaks
+Iter: Fargo
+Iter: Hollywood
+TEMP: Hollywood
+Iter: Concord
+Iter: Spartanburg
+Iter: Monroe
+Iter: Dallas
+Iter: Huntington
+TEMP: West_Covina
+TEMP: Pensacola
+Iter: Jacksonville
+Iter: Torrance
+TEMP: Muskegon
+Iter: Rancho_Cucamonga
+Iter: Naples
+TEMP: Waco
+Iter: Durham
+Iter: Norman
+Iter: Spokane
+TEMP: Tuscaloosa
+Iter: Irvine
+Iter: McAllen
+Iter: Tempe
+TEMP: Lexington
+Iter: Coral_Springs
+Iter: Medford
+TEMP: Miramar
+Iter: Hampton
+Iter: El_Paso
+TEMP: Lincoln
+Iter: Newport_News
+Iter: Flint
+TEMP: Dallas
+Iter: Knoxville
+Iter: Utica
+Iter: Philadelphia
+TEMP: Lakeland
+Iter: Inglewood
+Iter: Omaha
+Iter: Normal
+TEMP: Barnstable
+Iter: Birmingham
+TEMP: Providence
+Iter: Leominster
+Iter: Spartanburg
+TEMP: Waco
+Iter: Durham
+Iter: Norman
+Iter: Spokane
+TEMP: Medford
+Iter: Salem
+Iter: Bloomington
+Iter: Thousand_Oaks
+TEMP: San_Diego
+Iter: Denver
+Iter: Redding
+Iter: Medford
+TEMP: Lincoln
+Iter: Newport_News
+Iter: Flint
+TEMP: San_Buenaventura
+Iter: Green_Bay
+Iter: Westminster
+Iter: Monroe
+Iter: Burbank
+Iter: Rockford
+DONE Past: San_Buenaventura
+Arrival city: Rockford
+Departing city: Orem
+Temp: Orem
+Tracing Back: Rockford
+Tracing Back: San_Buenaventura
+Tracing Back: San_Bernardino
+Tracing Back: Milwaukee
+Tracing Back: Norman
+Tracing Back: Harrisburg
+Tracing Back: Sioux_Falls
+Tracing Back: Gulfport-Biloxi
+Tracing Back: Newport_News
+Tracing Back: Lancaster
+Tracing Back: Aberdeen
+Tracing Back: North_Port
+Tracing Back LAST: Orem
