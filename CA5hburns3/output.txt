@@ -1,0 +1,9 @@
+Departure: J. Arrival: B
+Departure: J. Arrival: M
+Departure: M. Arrival: B
+Enter a departure city.
+Enter a destination city.
+Departure:Fremont. Arrival city: Killeen $5
+Enter the earliest acceptable departure time.
+Type either 'any', 'earliest', or 'cheapest'
+Entered any

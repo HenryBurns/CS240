@@ -37,8 +37,7 @@
 			temp = first;
 		}
 	}
-//works
-	bool LLC::contains(const std::string &val){
+//works bool LLC::contains(const std::string &val){
 		NODE* temp = first;
 		while(temp != nullptr){
 			if(temp->data == val)

@@ -10,7 +10,6 @@ unsigned int setTime(std::string Time_val){
             char m = '\0';
             unsigned int hour = 0;
             unsigned int min = 0;
-            printf("%s\n", temp);
             sscanf(temp, "%u:%u%cm", &hour, &min, &m);
             if(m == 'p')
                 hour += 12;
@@ -27,9 +26,9 @@ class Flight{
         unsigned int arrival = 0 ;
         unsigned int departure = 0;
         Flight(){}
-        Flight(std::string start, std::string end, int mon, std::string dest){
-            arrival = setTime(start);
-            departure = setTime(end);
+        Flight(std::string arive, std::string depart, float mon, std::string dest){
+            arrival = setTime(arive);
+            departure = setTime(depart);
             cost = mon;
             destination = dest;
         }
@@ -40,7 +39,7 @@ class Node{
         Node* prev = NULL;
         std::string Name = "[empty]";
         std::vector<Flight*> flights;
-        unsigned int arrival = 0;
+        unsigned int arrival = (unsigned int) -1;
         float cost = 0;
         unsigned int visited = 0;
         Node(std::string str){
