@@ -1,28 +1,1889 @@
-Departure:J. Arrival city: B $$5
-10:14am
-09:12am
-Departure:J. Arrival city: M $$105.01
-08:2am
-06:10am
-Departure:M. Arrival city: B $$5
-10:12am
-10:00am
+Departure: Jacksonville. Arrival: Birmingham
+Departure: Milwaukee. Arrival: Odessa
+Departure: Chattanooga. Arrival: Athens
+Departure: Torrance. Arrival: Fayetteville
+Departure: Havre_de_Grace. Arrival: Houston
+Departure: Houston. Arrival: Brighton
+Departure: Gainesville. Arrival: Milwaukee
+Departure: Mobile. Arrival: Fort_Smith
+Departure: San_Antonio. Arrival: Vero_Beach
+Departure: Fort_Walton_Beach. Arrival: College_Station
+Departure: Pensacola. Arrival: Tallahassee
+Departure: Concord. Arrival: Gastonia
+Departure: Palmdale. Arrival: Asheville
+Departure: Houston. Arrival: Cambridge
+Departure: Allentown. Arrival: Daly_City
+Departure: Billings. Arrival: Fort_Smith
+Departure: Dallas. Arrival: Knoxville
+Departure: Huntington. Arrival: Hayward
+Departure: Pittsburgh. Arrival: Ocala
+Departure: Brownsville. Arrival: Philadelphia
+Departure: Allentown. Arrival: Poughkeepsie
+Departure: Lakeland. Arrival: Mesa
+Departure: Tacoma. Arrival: Norman
+Departure: Monroe. Arrival: Savannah
+Departure: Hampton. Arrival: Savannah
+Departure: Boise_City. Arrival: Tallahassee
+Departure: Mesquite. Arrival: McAllen
+Departure: Bonita_Springs. Arrival: GreenBay
+Departure: Pembroke_Pines. Arrival: Nashua
+Departure: Joliet. Arrival: Orem
+Departure: Norfolk. Arrival: Port_St._Lucie
+Departure: Moreno_Valley. Arrival: St._Louis
+Departure: Ocala. Arrival: Olympia
+Departure: Concord. Arrival: Durham
+Departure: Olympia. Arrival: Merced
+Departure: Oakland. Arrival: South_Bend
+Departure: Waterloo. Arrival: Bremerton
+Departure: Leominster. Arrival: GreenBay
+Departure: Miami. Arrival: Reading
+Departure: Pueblo. Arrival: Poughkeepsie
+Departure: Richmond_County. Arrival: Cary
+Departure: Redding. Arrival: Torrance
+Departure: Davidson_County. Arrival: Murfreesboro
+Departure: Naperville. Arrival: Hickory
+Departure: San_Buenaventura. Arrival: Green_Bay
+Departure: Lowell. Arrival: Newport_News
+Departure: Wilmington. Arrival: New_Bedford
+Departure: Lancaster. Arrival: Davidson_County
+Departure: Richland. Arrival: Simi_Valley
+Departure: Thousand_Oaks. Arrival: Inglewood
+Departure: Charlotte. Arrival: Antioch
+Departure: Minneapolis. Arrival: South_Bend
+Departure: Port_St._Lucie. Arrival: Chesapeake
+Departure: Spokane. Arrival: Stamford
+Departure: Denver. Arrival: Tempe
+Departure: Harrisburg. Arrival: Spartanburg
+Departure: Kennewick. Arrival: Olympia
+Departure: Baton_Rouge. Arrival: Medford
+Departure: GreenBay. Arrival: Lorain
+Departure: Bonita_Springs. Arrival: Medford
+Departure: Bryan. Arrival: Thousand_Oaks
+Departure: Moreno_Valley. Arrival: Manchester
+Departure: Cary. Arrival: Portsmouth
+Departure: Louisville. Arrival: South_Bend
+Departure: Palm_Bay. Arrival: Westminster
+Departure: Glendale. Arrival: Billings
+Departure: Boise_City. Arrival: New_Bedford
+Departure: Garland. Arrival: Portsmouth
+Departure: Saginaw. Arrival: Minneapolis
+Departure: Spokane. Arrival: Poughkeepsie
+Departure: Medford. Arrival: Fort_Smith
+Departure: Athens. Arrival: Miami
+Departure: Bryan. Arrival: Fargo
+Departure: Richland. Arrival: Clearwater
+Departure: Hickory. Arrival: Independence
+Departure: Colorado_Springs. Arrival: San_Bernardino
+Departure: Bloomington. Arrival: Philadelphia
+Departure: Madison. Arrival: North_Las_Vegas
+Departure: Naples. Arrival: Thousand_Oaks
+Departure: Chandler. Arrival: Aberdeen
+Departure: Monroe. Arrival: Johnson_City
+Departure: Manchester. Arrival: Gainesville
+Departure: Utica. Arrival: Norwalk
+Departure: Davidson_County. Arrival: Chandler
+Departure: San_Diego. Arrival: Denver
+Departure: Beaumont. Arrival: Fresno
+Departure: Billings. Arrival: Norwalk
+Departure: Cambridge. Arrival: Aberdeen
+Departure: Grayslake. Arrival: Lexington
+Departure: Hayward. Arrival: Joliet
+Departure: Athens. Arrival: Fremont
+Departure: Poughkeepsie. Arrival: Fort_Smith
+Departure: Gilbert. Arrival: Lorain
+Departure: Birmingham. Arrival: Norfolk
+Departure: Pompano_Beach. Arrival: Coral_Springs
+Departure: Yonkers. Arrival: Norman
+Departure: Normal. Arrival: St._Louis
+Departure: Sioux_Falls. Arrival: Port_St._Lucie
+Departure: Leominster. Arrival: Bel_Air
+Departure: Saint_Petersburg. Arrival: Las_Cruces
+Departure: Lincoln. Arrival: Newport_News
+Departure: Havre_de_Grace. Arrival: Alexandria
+Departure: Murfreesboro. Arrival: Beaumont
+Departure: Gulfport-Biloxi. Arrival: Tacoma
+Departure: Normal. Arrival: Durham
+Departure: Garland. Arrival: Frederick
+Departure: Cary. Arrival: Fargo
+Departure: Louisville. Arrival: Fayetteville
+Departure: Waco. Arrival: Durham
+Departure: Macon. Arrival: Syracuse
+Departure: Oakland. Arrival: Marina
+Departure: Sioux_Falls. Arrival: Kailua
+Departure: Lancaster. Arrival: Lowell
+Departure: San_Diego. Arrival: Knoxville
+Departure: Killeen. Arrival: North_Las_Vegas
+Departure: Tulsa. Arrival: Gainesville
+Departure: Newport_News. Arrival: Gulfport-Biloxi
+Departure: Anaheim. Arrival: Chattanooga
+Departure: Torrance. Arrival: Shreveport
+Departure: Medford. Arrival: Charlotte
+Departure: Howell. Arrival: Moreno_Valley
+Departure: Bloomington. Arrival: Vancouver
+Departure: Fort_Walton_Beach. Arrival: Reading
+Departure: Bellevue. Arrival: Riverside
+Departure: Bellevue. Arrival: Dallas
+Departure: Savannah. Arrival: Utica
+Departure: Laredo. Arrival: Pembroke_Pines
+Departure: Bryan. Arrival: Minneapolis
+Departure: New_York_City. Arrival: Lorain
+Departure: Bloomington. Arrival: Seattle
+Departure: Jacksonville. Arrival: Thousand_Oaks
+Departure: Paterson. Arrival: Port_St._Lucie
+Departure: San_Buenaventura. Arrival: Westminster
+Departure: Chesapeake. Arrival: Las_Vegas
+Departure: Lorain. Arrival: Lafayette
+Departure: Victorville. Arrival: Yonkers
+Departure: Sebastian. Arrival: Waco
+Departure: Fremont. Arrival: Houma
+Departure: Odessa. Arrival: Waco
+Departure: Frederick. Arrival: Pensacola
+Departure: Poughkeepsie. Arrival: Fort_Worth
+Departure: Orlando. Arrival: Shreveport
+Departure: Atlantic_City. Arrival: Lexington
+Departure: Daly_City. Arrival: Tuscaloosa
+Departure: Bethlehem. Arrival: Stamford
+Departure: Gainesville. Arrival: Burbank
+Departure: Bethlehem. Arrival: Las_Vegas
+Departure: Lorain. Arrival: Wilmington
+Departure: Poughkeepsie. Arrival: Irving
+Departure: Fargo. Arrival: Memphis
+Departure: Asheville. Arrival: Greensboro
+Departure: Savannah. Arrival: Bryan
+Departure: Pensacola. Arrival: Torrance
+Departure: Denver. Arrival: Tuscaloosa
+Departure: Leominster. Arrival: Saint_Petersburg
+Departure: Victorville. Arrival: Norwalk
+Departure: Merced. Arrival: Billings
+Departure: Indianapolis. Arrival: Orlando
+Departure: Mobile. Arrival: Santa_Cruz
+Departure: Olathe. Arrival: Sebastian
+Departure: Fremont. Arrival: Kansas_City
+Departure: Gainesville. Arrival: Havre_de_Grace
+Departure: Mesa. Arrival: Newport_News
+Departure: Mesquite. Arrival: Green_Bay
+Departure: Bellevue. Arrival: Bremerton
+Departure: Mesa. Arrival: Alexandria
+Departure: Minneapolis. Arrival: Waco
+Departure: Palmdale. Arrival: Springfield
+Departure: Gulfport-Biloxi. Arrival: Mobile
+Departure: New_York_City. Arrival: Abilene
+Departure: Garland. Arrival: Providence
+Departure: Grand_Rapids. Arrival: Savannah
+Departure: Saint_Petersburg. Arrival: Seattle
+Departure: Fort_Wayne. Arrival: St._Paul
+Departure: Tempe. Arrival: Normal
+Departure: Fresno. Arrival: GreenBay
+Departure: Garden_Grove. Arrival: San_Buenaventura
+Departure: Sioux_Falls. Arrival: Arlington
+Departure: Gulfport-Biloxi. Arrival: Hesperia
+Departure: Palmdale. Arrival: Johnson_City
+Departure: Billings. Arrival: Anaheim
+Departure: Olympia. Arrival: Riverside
+Departure: Rockford. Arrival: Daytona_Beach
+Departure: Seattle. Arrival: Houma
+Departure: Sioux_Falls. Arrival: Santa_Rosa
+Departure: Athens. Arrival: St._Louis
+Departure: Bellevue. Arrival: Barnstable
+Departure: St._Paul. Arrival: Springfield
+Departure: Birmingham. Arrival: Hesperia
+Departure: Bel_Air. Arrival: Irvine
+Departure: Burbank. Arrival: Bloomington
+Departure: Santa_Cruz. Arrival: Kalamazoo
+Departure: Norman. Arrival: Boise_City
+Departure: Abilene. Arrival: Port_Orange
+Departure: Las_Vegas. Arrival: Colorado_Springs
+Departure: Gastonia. Arrival: San_Antonio
+Departure: Clearwater. Arrival: Merced
+Departure: Akron. Arrival: Lexington
+Departure: Akron. Arrival: Grand_Rapids
+Departure: San_Diego. Arrival: Nashua
+Departure: Burbank. Arrival: Clarksville
+Departure: Lincoln. Arrival: Muskegon
+Departure: Apple_Valley. Arrival: Saint_Petersburg
+Departure: Memphis. Arrival: Sioux_Falls
+Departure: Columbus. Arrival: Abilene
+Departure: Bakersfield. Arrival: Westminster
+Departure: Fresno. Arrival: Durham
+Departure: McAllen. Arrival: Mobile
+Departure: Lakeland. Arrival: Inglewood
+Departure: Barnstable. Arrival: Fargo
+Departure: Atlantic_City. Arrival: Las_Vegas
+Departure: Mesquite. Arrival: Pomona
+Departure: Springfield. Arrival: Waterloo
+Departure: Lansing. Arrival: Reno
+Departure: Bel_Air. Arrival: Manchester
+Departure: Paterson. Arrival: Aberdeen
+Departure: Oklahoma_City. Arrival: Arlington
+Departure: Philadelphia. Arrival: Panama_City
+Departure: Springfield. Arrival: Independence
+Departure: Portland. Arrival: Myrtle_Beach
+Departure: Inglewood. Arrival: Manchester
+Departure: Inglewood. Arrival: Miami
+Departure: Las_Cruces. Arrival: Anaheim
+Departure: Corpus_Christi. Arrival: Sioux_Falls
+Departure: Aberdeen. Arrival: Chandler
+Departure: Dallas. Arrival: Spartanburg
+Departure: Tacoma. Arrival: College_Station
+Departure: Houston. Arrival: Pittsburgh
+Departure: Grayslake. Arrival: College_Station
+Departure: Aberdeen. Arrival: Akron
+Departure: Grand_Rapids. Arrival: Corona
+Departure: Lowell. Arrival: Muskegon
+Departure: San_Bernardino. Arrival: Lincoln
+Departure: Louisville. Arrival: Providence
+Departure: Las_Cruces. Arrival: Pasadena
+Departure: Dallas. Arrival: Pasadena
+Departure: Macon. Arrival: Beaumont
+Departure: Las_Vegas. Arrival: Hesperia
+Departure: Pembroke_Pines. Arrival: Kailua
+Departure: Monroe. Arrival: Palm_Bay
+Departure: Independence. Arrival: Topeka
+Departure: Flint. Arrival: Muskegon
+Departure: Gastonia. Arrival: Wichita
+Departure: Kissimmee. Arrival: Grayslake
+Departure: Garden_Grove. Arrival: Colorado_Springs
+Departure: Anchorage. Arrival: Columbus
+Departure: El_Paso. Arrival: Burlington
+Departure: South_Bend. Arrival: San_Bernardino
+Departure: Olathe. Arrival: Rockford
+Departure: Huntington. Arrival: Winter_Haven
+Departure: Oklahoma_City. Arrival: Fort_Smith
+Departure: Syracuse. Arrival: Clarksville
+Departure: Abilene. Arrival: Saginaw
+Departure: St._Paul. Arrival: Salem
+Departure: Myrtle_Beach. Arrival: Reno
+Departure: Hayward. Arrival: Bonita_Springs
+Departure: San_Antonio. Arrival: Visalia
+Departure: Fresno. Arrival: Nashua
+Departure: Vero_Beach. Arrival: Harrisburg
+Departure: Garland. Arrival: Daly_City
+Departure: Lorain. Arrival: Jacksonville
+Departure: Omaha. Arrival: Memphis
+Departure: Las_Vegas. Arrival: Birmingham
+Departure: Vero_Beach. Arrival: Denver
+Departure: Hampton. Arrival: Mesquite
+Departure: Lansing. Arrival: Brownsville
+Departure: Daly_City. Arrival: Hialeah
+Departure: Gastonia. Arrival: Billings
+Departure: Denver. Arrival: Johnson_City
+Departure: West_Covina. Arrival: Odessa
+Departure: Rockford. Arrival: Corpus_Christi
+Departure: Shreveport. Arrival: Hickory
+Departure: Memphis. Arrival: Pasadena
+Departure: Wilmington. Arrival: Savannah
+Departure: Naperville. Arrival: Chesapeake
+Departure: Deltona. Arrival: Tuscaloosa
+Departure: College_Station. Arrival: Pueblo
+Departure: Richland. Arrival: Bethlehem
+Departure: Huntington. Arrival: Thousand_Oaks
+Departure: Fort_Walton_Beach. Arrival: St._Paul
+Departure: Elk_Grove. Arrival: Fort_Wayne
+Departure: Bellevue. Arrival: Trenton
+Departure: Garden_Grove. Arrival: Hialeah
+Departure: San_Diego. Arrival: Lewisville
+Departure: Fort_Smith. Arrival: Huntington
+Departure: Fitchburg. Arrival: Tempe
+Departure: Grand_Prairie. Arrival: Muskegon
+Departure: McAllen. Arrival: Lorain
+Departure: Houston. Arrival: Bellevue
+Departure: Newark. Arrival: Syracuse
+Departure: Havre_de_Grace. Arrival: Waterloo
+Departure: Grand_Rapids. Arrival: San_Buenaventura
+Departure: Huntington_Beach. Arrival: Havre_de_Grace
+Departure: Bel_Air. Arrival: Lafayette
+Departure: Monroe. Arrival: Myrtle_Beach
+Departure: Hesperia. Arrival: Denver
+Departure: Westminster. Arrival: Fitchburg
+Departure: McHenry. Arrival: Rockford
+Departure: Brownsville. Arrival: Las_Cruces
+Departure: Reading. Arrival: Denver
+Departure: Simi_Valley. Arrival: Orlando
+Departure: Gainesville. Arrival: Lincoln
+Departure: Baton_Rouge. Arrival: Elkhart
+Departure: Normal. Arrival: Hickory
+Departure: Las_Cruces. Arrival: Fort_Wayne
+Departure: Spokane. Arrival: Howell
+Departure: Buffalo. Arrival: Joliet
+Departure: Gulfport-Biloxi. Arrival: Boise_City
+Departure: Fort_Wayne. Arrival: Shreveport
+Departure: Norman. Arrival: Pittsburgh
+Departure: Abilene. Arrival: Minneapolis
+Departure: Monroe. Arrival: Fitchburg
+Departure: Aberdeen. Arrival: Port_St._Lucie
+Departure: Corona. Arrival: Pompano_Beach
+Departure: Manchester. Arrival: Providence
+Departure: Pittsburgh. Arrival: Jefferson
+Departure: Palmdale. Arrival: Wilmington
+Departure: Hampton. Arrival: Merced
+Departure: Deltona. Arrival: Fremont
+Departure: Norfolk. Arrival: Port_Saint_Lucie
+Departure: Havre_de_Grace. Arrival: Westminster
+Departure: Savannah. Arrival: Olathe
+Departure: Anaheim. Arrival: Fargo
+Departure: Atlantic_City. Arrival: Stamford
+Departure: Daytona_Beach. Arrival: Anaheim
+Departure: Birmingham. Arrival: Manchester
+Departure: Port_Orange. Arrival: Columbus
+Departure: Seattle. Arrival: Colorado_Springs
+Departure: Nashua. Arrival: Montgomery
+Departure: Olathe. Arrival: Naples
+Departure: Saginaw. Arrival: New_York_City
+Departure: Daytona_Beach. Arrival: Harrisburg
+Departure: Lakeland. Arrival: Normal
+Departure: Cincinnati. Arrival: Barnstable
+Departure: Burlington. Arrival: Tallahassee
+Departure: San_Buenaventura. Arrival: Macon
+Departure: Victorville. Arrival: Tacoma
+Departure: Springfield. Arrival: Allentown
+Departure: Palmdale. Arrival: Colorado_Springs
+Departure: Antioch. Arrival: Rockford
+Departure: Abilene. Arrival: Akron
+Departure: Vero_Beach. Arrival: Garden_Grove
+Departure: Beaumont. Arrival: Lincoln
+Departure: Naples. Arrival: Montgomery
+Departure: Louisville. Arrival: Naples
+Departure: Chesapeake. Arrival: Macon
+Departure: Kailua. Arrival: Sioux_Falls
+Departure: Baton_Rouge. Arrival: Visalia
+Departure: Las_Cruces. Arrival: Omaha
+Departure: Palmdale. Arrival: Providence
+Departure: Bryan. Arrival: McAllen
+Departure: Deltona. Arrival: Portsmouth
+Departure: Corona. Arrival: Flint
+Departure: Asheville. Arrival: Arlington
+Departure: Burbank. Arrival: Kalamazoo
+Departure: Fremont. Arrival: Mobile
+Departure: Riverside. Arrival: North_Port
+Departure: Hollywood. Arrival: Akron
+Departure: Waterloo. Arrival: Durham
+Departure: Richland. Arrival: Miami
+Departure: Norwich. Arrival: Manchester
+Departure: Fargo. Arrival: Lakeland
+Departure: Lorain. Arrival: St._Louis
+Departure: Cary. Arrival: Myrtle_Beach
+Departure: McAllen. Arrival: Knoxville
+Departure: Pasadena. Arrival: Cambridge
+Departure: Lakeland. Arrival: Odessa
+Departure: Norman. Arrival: Salem
+Departure: Miami. Arrival: Clarksville
+Departure: Birmingham. Arrival: Green_Bay
+Departure: Clarksville. Arrival: Independence
+Departure: Medford. Arrival: New_York_City
+Departure: Knoxville. Arrival: New_Bedford
+Departure: Lexington. Arrival: Louisville
+Departure: Rancho_Cucamonga. Arrival: Knoxville
+Departure: Kissimmee. Arrival: Knoxville
+Departure: Madison. Arrival: GreenBay
+Departure: Athens. Arrival: Gainesville
+Departure: Kailua. Arrival: Fremont
+Departure: Victorville. Arrival: Palm_Bay
+Departure: Victorville. Arrival: Canton
+Departure: Medford. Arrival: Saginaw
+Departure: Grand_Prairie. Arrival: Buffalo
+Departure: Tallahassee. Arrival: Stamford
+Departure: Naperville. Arrival: Laredo
+Departure: Medford. Arrival: Akron
+Departure: Daytona_Beach. Arrival: Denver
+Departure: Concord. Arrival: St._Louis
+Departure: Richmond_County. Arrival: Chandler
+Departure: Minneapolis. Arrival: Howell
+Departure: Garland. Arrival: Orlando
+Departure: Asheville. Arrival: Reno
+Departure: Deltona. Arrival: Lexington
+Departure: Simi_Valley. Arrival: Newark
+Departure: Seattle. Arrival: Oakland
+Departure: Murfreesboro. Arrival: Tuscaloosa
+Departure: Corona. Arrival: Burlington
+Departure: Lancaster. Arrival: San_Bernardino
+Departure: Panama_City. Arrival: Fitchburg
+Departure: Orem. Arrival: Fremont
+Departure: Montgomery. Arrival: Mission_Viejo
+Departure: Atlantic_City. Arrival: Inglewood
+Departure: Medford. Arrival: Kissimmee
+Departure: Buffalo. Arrival: Tallahassee
+Departure: Wilmington. Arrival: Las_Vegas
+Departure: Macon. Arrival: Las_Vegas
+Departure: Wilmington. Arrival: Modesto
+Departure: Asheville. Arrival: Fort_Worth
+Departure: Elk_Grove. Arrival: San_Buenaventura
+Departure: San_Antonio. Arrival: Akron
+Departure: Houma. Arrival: Medford
+Departure: Burlington. Arrival: San_Bernardino
+Departure: Bremerton. Arrival: Medford
+Departure: Abilene. Arrival: Leominster
+Departure: Burbank. Arrival: Saginaw
+Departure: Omaha. Arrival: Baton_Rouge
+Departure: Omaha. Arrival: Wilmington
+Departure: Savannah. Arrival: Tuscaloosa
+Departure: Akron. Arrival: Palmdale
+Departure: Grand_Prairie. Arrival: Brownsville
+Departure: Gulfport-Biloxi. Arrival: Brighton
+Departure: Cary. Arrival: Houston
+Departure: Athens. Arrival: Cary
+Departure: Grand_Rapids. Arrival: Antioch
+Departure: Mission_Viejo. Arrival: Davidson_County
+Departure: Antioch. Arrival: Bakersfield
+Departure: Lafayette. Arrival: Olathe
+Departure: Harrisburg. Arrival: Port_St._Lucie
+Departure: San_Bernardino. Arrival: Inglewood
+Departure: Wilmington. Arrival: Fort_Smith
+Departure: Myrtle_Beach. Arrival: Baton_Rouge
+Departure: Greensboro. Arrival: Inglewood
+Departure: Lowell. Arrival: Johnson_City
+Departure: Chattanooga. Arrival: Richmond_County
+Departure: Waco. Arrival: Bellevue
+Departure: Lafayette. Arrival: Colorado_Springs
+Departure: Pembroke_Pines. Arrival: Chandler
+Departure: San_Buenaventura. Arrival: Huntington
+Departure: College_Station. Arrival: Victorville
+Departure: Boise_City. Arrival: Fresno
+Departure: Cincinnati. Arrival: Alexandria
+Departure: Chandler. Arrival: Barnstable
+Departure: Mobile. Arrival: Corona
+Departure: Lexington. Arrival: Panama_City
+Departure: Asheville. Arrival: Coral_Springs
+Departure: Norwich. Arrival: Riverside
+Departure: Hickory. Arrival: Fayetteville
+Departure: Pembroke_Pines. Arrival: Concord
+Departure: Myrtle_Beach. Arrival: Philadelphia
+Departure: Kailua. Arrival: Norwich
+Departure: Port_St._Lucie. Arrival: St._Louis
+Departure: College_Station. Arrival: Mesquite
+Departure: Beaumont. Arrival: Gastonia
+Departure: Port_Orange. Arrival: Orem
+Departure: Providence. Arrival: Houma
+Departure: Naperville. Arrival: Pompano_Beach
+Departure: Santa_Rosa. Arrival: Kansas_City
+Departure: Coral_Springs. Arrival: Fort_Wayne
+Departure: Thousand_Oaks. Arrival: Chandler
+Departure: Waco. Arrival: Orem
+Departure: Chattanooga. Arrival: McAllen
+Departure: Havre_de_Grace. Arrival: Bonita_Springs
+Departure: Port_St._Lucie. Arrival: Olathe
+Departure: Hesperia. Arrival: Lafayette
+Departure: Topeka. Arrival: Grayslake
+Departure: Richmond_County. Arrival: Flint
+Departure: Lake_Charles. Arrival: Seattle
+Departure: Norwalk. Arrival: Las_Vegas
+Departure: Houma. Arrival: El_Paso
+Departure: Pueblo. Arrival: West_Covina
+Departure: Port_Orange. Arrival: Palmdale
+Departure: Lowell. Arrival: Indianapolis
+Departure: Davidson_County. Arrival: Grand_Prairie
+Departure: Columbus. Arrival: Indianapolis
+Departure: Fitchburg. Arrival: Brownsville
+Departure: Chattanooga. Arrival: Bremerton
+Departure: Fort_Wayne. Arrival: Huntington_Beach
+Departure: Buffalo. Arrival: Billings
+Departure: Garden_Grove. Arrival: Abilene
+Departure: Indianapolis. Arrival: Kennewick
+Departure: Minneapolis. Arrival: Trenton
+Departure: El_Paso. Arrival: Milwaukee
+Departure: Beaumont. Arrival: Houston
+Departure: Pomona. Arrival: Flint
+Departure: McAllen. Arrival: Cincinnati
+Departure: Joliet. Arrival: Lancaster
+Departure: Kissimmee. Arrival: Fort_Smith
+Departure: Jacksonville. Arrival: Mesquite
+Departure: Fremont. Arrival: Burlington
+Departure: Asheville. Arrival: Port_Orange
+Departure: Davidson_County. Arrival: Wichita
+Departure: Killeen. Arrival: Rockford
+Departure: Port_Orange. Arrival: Pensacola
+Departure: Saginaw. Arrival: Mission_Viejo
+Departure: Panama_City. Arrival: Las_Vegas
+Departure: Myrtle_Beach. Arrival: Colorado_Springs
+Departure: Riverside. Arrival: Mission_Viejo
+Departure: Durham. Arrival: Gulfport-Biloxi
+Departure: Redding. Arrival: Pensacola
+Departure: Gulfport-Biloxi. Arrival: Bremerton
 Enter a departure city.
 Enter a destination city.
-Departure:J. Arrival city: B $$5
+Departure:Pomona. Arrival city: Lorain $318.09
 Enter the earliest acceptable departure time.
-1:00am
-TEMP: 0x5b88040
 Type either 'any', 'earliest', or 'cheapest'
 Entered earliest
-TEMP: 0x5b88040
-TEMP: J
-Time:  4294967295
-Time2:  4294967295
-Time:  4294967295
-Time2:  4294967295
-Arrival city: B
-Departing city: J
-Temp2: B. Temp2 arrival time: 4294967295
-Tracing Back: B
-Tracing Back: 
+TEMP: 0x5633437e45c0
+TEMP: Pomona
+New node time:  4294967295
+Old node time:  4294967295
+Iter: Flint. First time
+TEMP: 0x5633437ed1f0
+TEMP: Flint
+New node time:  4294967295
+Old node time:  617
+Iter: Muskegon. First time
+TEMP: 0x5633437eb530
+TEMP: Muskegon
+Arrival city: Lorain
+Departing city: Pomona
+Temp2: Lorain. Temp2 arrival time: 4294967295
+Tracing Back: Lorain
+This node cannot be reached
+Entered earliest
+TEMP: 0x5633437e1980
+TEMP: Lorain
+New node time:  4294967295
+Old node time:  4294967295
+Iter: St._Louis. First time
+New node time:  4294967295
+Old node time:  4294967295
+Iter: Jacksonville. First time
+New node time:  4294967295
+Old node time:  4294967295
+Iter: Wilmington. First time
+New node time:  4294967295
+Old node time:  4294967295
+Iter: Lafayette. First time
+TEMP: 0x5633437e1980
+TEMP: Lorain
+New node time:  4
+Old node time:  4294967295
+New node time:  1552
+Old node time:  4294967295
+New node time:  1920
+Old node time:  4294967295
+New node time:  1617
+Old node time:  4294967295
+TEMP: 0x5633437e2090
+TEMP: St._Louis
+TEMP: 0x5633437deec0
+TEMP: Jacksonville
+New node time:  4294967295
+Old node time:  1552
+Iter: Mesquite. First time
+New node time:  4294967295
+Old node time:  1552
+Iter: Thousand_Oaks. First time
+New node time:  4294967295
+Old node time:  1552
+Iter: Birmingham. First time
+TEMP: 0x5633437e34c0
+TEMP: Wilmington
+New node time:  4294967295
+Old node time:  1920
+Iter: Fort_Smith. First time
+New node time:  4294967295
+Old node time:  1920
+Iter: Modesto. First time
+New node time:  4294967295
+Old node time:  1920
+Iter: Las_Vegas. First time
+New node time:  4294967295
+Old node time:  1920
+Iter: Savannah. First time
+New node time:  4294967295
+Old node time:  1920
+Iter: New_Bedford. First time
+TEMP: 0x5633437e88c0
+TEMP: Lafayette
+New node time:  4294967295
+Old node time:  1617
+Iter: Colorado_Springs. First time
+New node time:  4294967295
+Old node time:  1617
+Iter: Olathe. First time
+TEMP: 0x5633437e1640
+TEMP: Mesquite
+New node time:  4294967295
+Old node time:  250
+Iter: Pomona. First time
+New node time:  4294967295
+Old node time:  250
+Iter: Green_Bay. First time
+New node time:  4294967295
+Old node time:  250
+Iter: McAllen. First time
+TEMP: 0x5633437e3900
+TEMP: Thousand_Oaks
+New node time:  4294967295
+Old node time:  2025
+Iter: Chandler. First time
+New node time:  4294967295
+Old node time:  2025
+TEMP: 0x5633437def90
+TEMP: Birmingham
+New node time:  354
+Old node time:  1014
+New node time:  4294967295
+Old node time:  1014
+Iter: Manchester. First time
+New node time:  4294967295
+Old node time:  1014
+Iter: Hesperia. First time
+New node time:  4294967295
+Old node time:  1014
+Iter: Norfolk. First time
+TEMP: 0x5633437dfa50
+TEMP: Fort_Smith
+New node time:  4294967295
+Old node time:  747
+Iter: Huntington. First time
+TEMP: 0x5633437f1be0
+TEMP: Modesto
+TEMP: 0x5633437e87e0
+TEMP: Las_Vegas
+New node time:  1014
+Old node time:  1040
+New node time:  2359
+Old node time:  1040
+This new flight arrives sooner. Old Flight Hesperia. Olf flight time: 2359
+New Flight time: 1424
+Current flight's time post operation:  1424
+New node time:  1923
+Old node time:  1040
+TEMP: 0x5633437e1340
+TEMP: Savannah
+New node time:  4294967295
+Old node time:  705
+Iter: Tuscaloosa. First time
+New node time:  631
+Old node time:  705
+New node time:  4294967295
+Old node time:  705
+Iter: Bryan. First time
+New node time:  4294967295
+Old node time:  705
+Iter: Utica. First time
+TEMP: 0x5633437e3560
+TEMP: New_Bedford
+TEMP: 0x5633437e5700
+TEMP: Colorado_Springs
+New node time:  4294967295
+Old node time:  1923
+Iter: San_Bernardino. First time
+TEMP: 0x5633437e9ac0
+TEMP: Olathe
+New node time:  4294967295
+Old node time:  631
+Iter: Naples. First time
+New node time:  4294967295
+Old node time:  631
+Iter: Rockford. First time
+New node time:  4294967295
+Old node time:  631
+Iter: Sebastian. First time
+TEMP: 0x5633437e45c0
+TEMP: Pomona
+New node time:  4294967295
+Old node time:  1950
+Iter: Flint. First time
+TEMP: 0x5633437e3240
+TEMP: Green_Bay
+TEMP: 0x5633437e0220
+TEMP: McAllen
+New node time:  4294967295
+Old node time:  2105
+New node time:  4294967295
+Old node time:  2105
+Iter: Knoxville. First time
+New node time:  4294967295
+Old node time:  2105
+New node time:  4294967295
+Old node time:  2105
+Iter: Mobile. First time
+TEMP: 0x5633437e5c50
+TEMP: Chandler
+New node time:  4294967295
+Old node time:  2144
+Iter: Barnstable. First time
+New node time:  4294967295
+Old node time:  2144
+Iter: Aberdeen. First time
+TEMP: 0x5633437e4b40
+TEMP: Manchester
+New node time:  4294967295
+Old node time:  1530
+Iter: Providence. First time
+New node time:  4294967295
+Old node time:  1530
+TEMP: 0x5633437ea710
+TEMP: Hesperia
+New node time:  1617
+Old node time:  1424
+New node time:  4294967295
+Old node time:  1424
+Iter: Denver. First time
+TEMP: 0x5633437e1e50
+TEMP: Norfolk
+New node time:  4294967295
+Old node time:  501
+New node time:  4294967295
+Old node time:  501
+Iter: Port_St._Lucie. First time
+TEMP: 0x5633437e09a0
+TEMP: Huntington
+New node time:  2025
+Old node time:  654
+New node time:  4294967295
+Old node time:  654
+Iter: Winter_Haven. First time
+New node time:  4294967295
+Old node time:  654
+Iter: Hayward. First time
+TEMP: 0x5633437ea710
+TEMP: Hesperia
+New node time:  1617
+Old node time:  1424
+New node time:  1744
+Old node time:  1424
+TEMP: 0x5633437e9060
+TEMP: Tuscaloosa
+TEMP: 0x5633437e4a60
+TEMP: Bryan
+New node time:  2105
+Old node time:  717
+New node time:  4294967295
+Old node time:  717
+Iter: Minneapolis. First time
+New node time:  4294967295
+Old node time:  717
+Iter: Fargo. First time
+New node time:  2025
+Old node time:  717
+TEMP: 0x5633437e5f30
+TEMP: Utica
+New node time:  4294967295
+Old node time:  2013
+Iter: Norwalk. First time
+TEMP: 0x5633437e57d0
+TEMP: San_Bernardino
+New node time:  4294967295
+Old node time:  1922
+Iter: Inglewood. First time
+New node time:  4294967295
+Old node time:  1922
+TEMP: 0x5633437e5b50
+TEMP: Naples
+New node time:  4294967295
+Old node time:  1438
+New node time:  2025
+Old node time:  1438
+TEMP: 0x5633437ea940
+TEMP: Rockford
+New node time:  4294967295
+Old node time:  1407
+Iter: Corpus_Christi. First time
+New node time:  4294967295
+Old node time:  1407
+Iter: Daytona_Beach. First time
+TEMP: 0x5633437e8ac0
+TEMP: Sebastian
+New node time:  4294967295
+Old node time:  19
+Iter: Waco. First time
+TEMP: 0x5633437ed1f0
+TEMP: Flint
+New node time:  4294967295
+Old node time:  617
+Iter: Muskegon. First time
+TEMP: 0x5633437e08a0
+TEMP: Knoxville
+New node time:  2101
+Old node time:  622
+TEMP: 0x5633437df9b0
+TEMP: Mobile
+New node time:  4294967295
+Old node time:  408
+Iter: Corona. First time
+New node time:  4294967295
+Old node time:  408
+Iter: Santa_Cruz. First time
+New node time:  747
+Old node time:  408
+TEMP: 0x5633437eac50
+TEMP: Barnstable
+New node time:  709
+Old node time:  1852
+TEMP: 0x5633437e5cf0
+TEMP: Aberdeen
+New node time:  2156
+Old node time:  1310
+New node time:  4294967295
+Old node time:  1310
+Iter: Akron. First time
+New node time:  2144
+Old node time:  1310
+TEMP: 0x5633437ea080
+TEMP: Providence
+New node time:  4294967295
+Old node time:  358
+Iter: Houma. First time
+TEMP: 0x5633437e3fe0
+TEMP: Denver
+New node time:  4294967295
+Old node time:  1744
+Iter: Johnson_City. First time
+New node time:  1605
+Old node time:  1744
+New node time:  4294967295
+Old node time:  1744
+Iter: Tempe. First time
+TEMP: 0x5633437e1ef0
+TEMP: Port_St._Lucie
+New node time:  631
+Old node time:  2156
+New node time:  4
+Old node time:  2156
+New node time:  4294967295
+Old node time:  2156
+Iter: Chesapeake. First time
+TEMP: 0x5633437ed840
+TEMP: Winter_Haven
+TEMP: 0x5633437e0a40
+TEMP: Hayward
+New node time:  4294967295
+Old node time:  617
+Iter: Bonita_Springs. First time
+New node time:  4294967295
+Old node time:  617
+Iter: Joliet. First time
+TEMP: 0x5633437e3c40
+TEMP: Minneapolis
+New node time:  4294967295
+Old node time:  1313
+Iter: Trenton. First time
+New node time:  4294967295
+Old node time:  1313
+Iter: Howell. First time
+New node time:  545
+Old node time:  1313
+New node time:  4294967295
+Old node time:  1313
+Iter: South_Bend. First time
+TEMP: 0x5633437e5400
+TEMP: Fargo
+New node time:  4294967295
+Old node time:  709
+Iter: Lakeland. First time
+New node time:  4294967295
+Old node time:  709
+Iter: Memphis. First time
+TEMP: 0x5633437e5fd0
+TEMP: Norwalk
+New node time:  1040
+Old node time:  244
+TEMP: 0x5633437e39a0
+TEMP: Inglewood
+New node time:  4294967295
+Old node time:  2138
+Iter: Miami. First time
+New node time:  1530
+Old node time:  2138
+TEMP: 0x5633437ec9d0
+TEMP: Corpus_Christi
+New node time:  4294967295
+Old node time:  2359
+Iter: Sioux_Falls. First time
+TEMP: 0x5633437ea9e0
+TEMP: Daytona_Beach
+New node time:  1744
+Old node time:  1919
+New node time:  4294967295
+Old node time:  1919
+New node time:  4294967295
+Old node time:  1919
+Iter: Anaheim. First time
+TEMP: 0x5633437e7560
+TEMP: Waco
+New node time:  4294967295
+Old node time:  545
+Iter: Orem. First time
+New node time:  4294967295
+Old node time:  545
+Iter: Bellevue. First time
+New node time:  4294967295
+Old node time:  545
+Iter: Durham. First time
+TEMP: 0x5633437eb530
+TEMP: Muskegon
+TEMP: 0x5633437eccc0
+TEMP: Corona
+New node time:  4294967295
+Old node time:  1836
+Iter: Burlington. First time
+New node time:  617
+Old node time:  1836
+New node time:  4294967295
+Old node time:  1836
+TEMP: 0x5633437e99c0
+TEMP: Santa_Cruz
+New node time:  4294967295
+Old node time:  1822
+Iter: Kalamazoo. First time
+TEMP: 0x5633437eb280
+TEMP: Akron
+New node time:  4294967295
+Old node time:  1402
+Iter: Palmdale. First time
+New node time:  4294967295
+Old node time:  1402
+Iter: Grand_Rapids. First time
+New node time:  4294967295
+Old node time:  1402
+Iter: Lexington. First time
+TEMP: 0x5633437e8bc0
+TEMP: Houma
+New node time:  4294967295
+Old node time:  1705
+Iter: El_Paso. First time
+New node time:  4294967295
+Old node time:  1705
+Iter: Medford. First time
+TEMP: 0x5633437e5df0
+TEMP: Johnson_City
+TEMP: 0x5633437e4080
+TEMP: Tempe
+New node time:  4294967295
+Old node time:  1348
+Iter: Normal. First time
+TEMP: 0x5633437e3d40
+TEMP: Chesapeake
+New node time:  4294967295
+Old node time:  415
+New node time:  1040
+Old node time:  415
+TEMP: 0x5633437e0320
+TEMP: Bonita_Springs
+New node time:  1854
+Old node time:  905
+New node time:  4294967295
+Old node time:  905
+Iter: GreenBay. First time
+TEMP: 0x5633437e1cb0
+TEMP: Joliet
+New node time:  4294967295
+Old node time:  1116
+Iter: Lancaster. First time
+New node time:  530
+Old node time:  1116
+TEMP: 0x5633437ee700
+TEMP: Trenton
+TEMP: 0x5633437e7ec0
+TEMP: Howell
+New node time:  4294967295
+Old node time:  1725
+Iter: Moreno_Valley. First time
+TEMP: 0x5633437e2510
+TEMP: South_Bend
+New node time:  1922
+Old node time:  2057
+TEMP: 0x5633437e0f80
+TEMP: Lakeland
+New node time:  4294967295
+Old node time:  1136
+Iter: Odessa. First time
+New node time:  744
+Old node time:  1136
+New node time:  2138
+Old node time:  1136
+New node time:  4294967295
+Old node time:  1136
+Iter: Mesa. First time
+TEMP: 0x5633437e94f0
+TEMP: Memphis
+New node time:  4294967295
+Old node time:  16
+Iter: Pasadena. First time
+New node time:  2026
+Old node time:  16
+This new flight arrives sooner. Old Flight Sioux_Falls. Olf flight time: 2026
+New Flight time: 1923
+Current flight's time post operation:  1923
+TEMP: 0x5633437e28b0
+TEMP: Miami
+New node time:  4294967295
+Old node time:  1859
+Iter: Clarksville. First time
+New node time:  4294967295
+Old node time:  1859
+Iter: Reading. First time
+TEMP: 0x5633437e6c90
+TEMP: Sioux_Falls
+New node time:  4294967295
+Old node time:  1923
+Iter: Santa_Rosa. First time
+New node time:  4294967295
+Old node time:  1923
+Iter: Arlington. First time
+New node time:  4294967295
+Old node time:  1923
+Iter: Kailua. First time
+New node time:  2156
+Old node time:  1923
+TEMP: 0x5633437e7c80
+TEMP: Anaheim
+New node time:  709
+Old node time:  820
+New node time:  4294967295
+Old node time:  820
+Iter: Chattanooga. First time
+TEMP: 0x5633437e1d50
+TEMP: Orem
+New node time:  4294967295
+Old node time:  530
+Iter: Fremont. First time
+TEMP: 0x5633437e80e0
+TEMP: Bellevue
+New node time:  1034
+Old node time:  37
+New node time:  1852
+Old node time:  37
+New node time:  4294967295
+Old node time:  37
+Iter: Bremerton. First time
+New node time:  4294967295
+Old node time:  37
+Iter: Dallas. First time
+New node time:  4294967295
+Old node time:  37
+Iter: Riverside. First time
+TEMP: 0x5633437e2290
+TEMP: Durham
+New node time:  4294967295
+Old node time:  254
+Iter: Gulfport-Biloxi. First time
+TEMP: 0x5633437ed680
+TEMP: Burlington
+New node time:  1922
+Old node time:  942
+New node time:  4294967295
+Old node time:  942
+Iter: Tallahassee. First time
+TEMP: 0x5633437eaed0
+TEMP: Kalamazoo
+TEMP: 0x5633437df750
+TEMP: Palmdale
+New node time:  358
+Old node time:  1154
+New node time:  1923
+Old node time:  1154
+New node time:  1920
+Old node time:  1154
+New node time:  2323
+Old node time:  1154
+New node time:  4294967295
+Old node time:  1154
+Iter: Springfield. First time
+New node time:  4294967295
+Old node time:  1154
+Iter: Asheville. First time
+TEMP: 0x5633437ea190
+TEMP: Grand_Rapids
+New node time:  4294967295
+Old node time:  1016
+Iter: Antioch. First time
+New node time:  4294967295
+Old node time:  1016
+Iter: San_Buenaventura. First time
+New node time:  1836
+Old node time:  1016
+New node time:  705
+Old node time:  1016
+TEMP: 0x5633437e64f0
+TEMP: Lexington
+New node time:  4294967295
+Old node time:  1418
+Iter: Panama_City. First time
+New node time:  4294967295
+Old node time:  1418
+Iter: Louisville. First time
+TEMP: 0x5633437ed5e0
+TEMP: El_Paso
+New node time:  4294967295
+Old node time:  959
+Iter: Milwaukee. First time
+New node time:  942
+Old node time:  959
+TEMP: 0x5633437e1880
+TEMP: Medford
+New node time:  4294967295
+Old node time:  1854
+Iter: Kissimmee. First time
+New node time:  1402
+Old node time:  1854
+New node time:  4294967295
+Old node time:  1854
+Iter: Saginaw. First time
+New node time:  4294967295
+Old node time:  1854
+Iter: New_York_City. First time
+New node time:  4294967295
+Old node time:  1854
+Iter: Charlotte. First time
+New node time:  747
+Old node time:  1854
+TEMP: 0x5633437e6b90
+TEMP: Normal
+New node time:  4294967295
+Old node time:  744
+Iter: Hickory. First time
+New node time:  254
+Old node time:  744
+New node time:  4
+Old node time:  744
+TEMP: 0x5633437e1a30
+TEMP: GreenBay
+New node time:  4294967295
+Old node time:  1503
+TEMP: 0x5633437e3660
+TEMP: Lancaster
+New node time:  1922
+Old node time:  2037
+New node time:  4294967295
+Old node time:  2037
+Iter: Lowell. First time
+New node time:  4294967295
+Old node time:  2037
+Iter: Davidson_County. First time
+TEMP: 0x5633437e1ff0
+TEMP: Moreno_Valley
+New node time:  1530
+Old node time:  500
+New node time:  4
+Old node time:  500
+TEMP: 0x5633437df110
+TEMP: Odessa
+New node time:  545
+Old node time:  2359
+TEMP: 0x5633437e1020
+TEMP: Mesa
+New node time:  4294967295
+Old node time:  1156
+New node time:  4294967295
+Old node time:  1156
+Iter: Newport_News. First time
+TEMP: 0x5633437ece90
+TEMP: Pasadena
+New node time:  4294967295
+Old node time:  1923
+Iter: Cambridge. First time
+TEMP: 0x5633437e6c90
+TEMP: Sioux_Falls
+New node time:  2140
+Old node time:  1923
+New node time:  1754
+Old node time:  1923
+New node time:  34
+Old node time:  1923
+New node time:  2156
+Old node time:  1923
+TEMP: 0x5633437eb450
+TEMP: Clarksville
+New node time:  4294967295
+Old node time:  2137
+Iter: Independence. First time
+TEMP: 0x5633437e2950
+TEMP: Reading
+New node time:  1744
+Old node time:  2359
+TEMP: 0x5633437eab00
+TEMP: Santa_Rosa
+New node time:  4294967295
+Old node time:  2140
+Iter: Kansas_City. First time
+TEMP: 0x5633437ea600
+TEMP: Arlington
+TEMP: 0x5633437e78e0
+TEMP: Kailua
+New node time:  4294967295
+Old node time:  34
+Iter: Norwich. First time
+New node time:  554
+Old node time:  34
+New node time:  1923
+Old node time:  34
+TEMP: 0x5633437df270
+TEMP: Chattanooga
+New node time:  731
+Old node time:  1408
+New node time:  2105
+Old node time:  1408
+New node time:  4294967295
+Old node time:  1408
+Iter: Richmond_County. First time
+New node time:  4294967295
+Old node time:  1408
+TEMP: 0x5633437e6650
+TEMP: Fremont
+New node time:  942
+Old node time:  554
+New node time:  408
+Old node time:  554
+New node time:  1341
+Old node time:  554
+New node time:  1705
+Old node time:  554
+TEMP: 0x5633437e26b0
+TEMP: Bremerton
+New node time:  1854
+Old node time:  731
+TEMP: 0x5633437e0800
+TEMP: Dallas
+New node time:  1923
+Old node time:  1325
+New node time:  4294967295
+Old node time:  1325
+Iter: Spartanburg. First time
+New node time:  622
+Old node time:  1325
+TEMP: 0x5633437e8180
+TEMP: Riverside
+New node time:  4294967295
+Old node time:  1052
+Iter: Mission_Viejo. First time
+New node time:  4294967295
+Old node time:  1052
+Iter: North_Port. First time
+TEMP: 0x5633437e72a0
+TEMP: Gulfport-Biloxi
+New node time:  731
+Old node time:  416
+New node time:  4294967295
+Old node time:  416
+Iter: Brighton. First time
+New node time:  4294967295
+Old node time:  416
+Iter: Boise_City. First time
+New node time:  1424
+Old node time:  416
+New node time:  408
+Old node time:  416
+New node time:  4294967295
+Old node time:  416
+Iter: Tacoma. First time
+TEMP: 0x5633437dff80
+TEMP: Tallahassee
+New node time:  4294967295
+Old node time:  928
+Iter: Stamford. First time
+TEMP: 0x5633437e9e80
+TEMP: Springfield
+New node time:  4294967295
+Old node time:  610
+Iter: Allentown. First time
+New node time:  958
+Old node time:  610
+New node time:  4294967295
+Old node time:  610
+Iter: Waterloo. First time
+TEMP: 0x5633437e03a0
+TEMP: Asheville
+New node time:  4294967295
+Old node time:  932
+Iter: Port_Orange. First time
+New node time:  4294967295
+Old node time:  932
+Iter: Coral_Springs. First time
+New node time:  4294967295
+Old node time:  932
+Iter: Fort_Worth. First time
+New node time:  4294967295
+Old node time:  932
+Iter: Reno. First time
+New node time:  1754
+Old node time:  932
+New node time:  4294967295
+Old node time:  932
+Iter: Greensboro. First time
+TEMP: 0x5633437e3b40
+TEMP: Antioch
+New node time:  4294967295
+Old node time:  1527
+Iter: Bakersfield. First time
+New node time:  1407
+Old node time:  1527
+TEMP: 0x5633437e3170
+TEMP: San_Buenaventura
+New node time:  654
+Old node time:  745
+New node time:  4294967295
+Old node time:  745
+Iter: Macon. First time
+New node time:  4294967295
+Old node time:  745
+Iter: Westminster. First time
+New node time:  354
+Old node time:  745
+TEMP: 0x5633437ec610
+TEMP: Panama_City
+New node time:  1040
+Old node time:  440
+New node time:  4294967295
+Old node time:  440
+Iter: Fitchburg. First time
+TEMP: 0x5633437e4d20
+TEMP: Louisville
+New node time:  1438
+Old node time:  1353
+New node time:  358
+Old node time:  1353
+New node time:  4294967295
+Old node time:  1353
+Iter: Fayetteville. First time
+New node time:  2057
+Old node time:  1353
+TEMP: 0x5633437df070
+TEMP: Milwaukee
+New node time:  2359
+Old node time:  1102
+TEMP: 0x5633437ed3b0
+TEMP: Kissimmee
+New node time:  747
+Old node time:  2036
+New node time:  622
+Old node time:  2036
+New node time:  4294967295
+Old node time:  2036
+Iter: Grayslake. First time
+TEMP: 0x5633437e5200
+TEMP: Saginaw
+New node time:  1116
+Old node time:  914
+New node time:  2359
+Old node time:  914
+This new flight arrives sooner. Old Flight New_York_City. Olf flight time: 2359
+New Flight time: 2038
+Current flight's time post operation:  2038
+New node time:  1313
+Old node time:  914
+TEMP: 0x5633437e8470
+TEMP: New_York_City
+New node time:  4294967295
+Old node time:  2038
+Iter: Abilene. First time
+New node time:  4294967295
+Old node time:  2038
+TEMP: 0x5633437e3aa0
+TEMP: Charlotte
+New node time:  1527
+Old node time:  1650
+TEMP: 0x5633437e3030
+TEMP: Hickory
+New node time:  150
+Old node time:  1708
+New node time:  958
+Old node time:  1708
+TEMP: 0x5633437e3320
+TEMP: Lowell
+New node time:  4294967295
+Old node time:  1729
+Iter: Indianapolis. First time
+New node time:  2323
+Old node time:  1729
+New node time:  459
+Old node time:  1729
+New node time:  1928
+Old node time:  1729
+TEMP: 0x5633437e2df0
+TEMP: Davidson_County
+New node time:  4294967295
+Old node time:  132
+Iter: Wichita. First time
+New node time:  4294967295
+Old node time:  132
+Iter: Grand_Prairie. First time
+New node time:  2144
+Old node time:  132
+New node time:  4294967295
+Old node time:  132
+Iter: Murfreesboro. First time
+TEMP: 0x5633437e33c0
+TEMP: Newport_News
+New node time:  416
+Old node time:  1928
+TEMP: 0x5633437e0480
+TEMP: Cambridge
+New node time:  1310
+Old node time:  847
+TEMP: 0x5633437e55e0
+TEMP: Independence
+New node time:  4294967295
+Old node time:  958
+Iter: Topeka. First time
+TEMP: 0x5633437e9ba0
+TEMP: Kansas_City
+TEMP: 0x5633437f0ab0
+TEMP: Norwich
+New node time:  1052
+Old node time:  449
+New node time:  1530
+Old node time:  449
+TEMP: 0x5633437e2b50
+TEMP: Richmond_County
+New node time:  617
+Old node time:  1031
+New node time:  2144
+Old node time:  1031
+New node time:  4294967295
+Old node time:  1031
+TEMP: 0x5633437e4220
+TEMP: Spartanburg
+TEMP: 0x5633437f1960
+TEMP: Mission_Viejo
+New node time:  132
+Old node time:  1116
+TEMP: 0x5633437f0870
+TEMP: North_Port
+TEMP: 0x5633437df210
+TEMP: Brighton
+TEMP: 0x5633437e1540
+TEMP: Boise_City
+New node time:  4294967295
+Old node time:  1540
+Iter: Fresno. First time
+New node time:  2101
+Old node time:  1540
+New node time:  928
+Old node time:  1540
+TEMP: 0x5633437e1100
+TEMP: Tacoma
+New node time:  4294967295
+Old node time:  1410
+Iter: College_Station. First time
+New node time:  4294967295
+Old node time:  1410
+Iter: Norman. First time
+TEMP: 0x5633437e3ee0
+TEMP: Stamford
+TEMP: 0x5633437e0580
+TEMP: Allentown
+New node time:  4294967295
+Old node time:  1847
+Iter: Poughkeepsie. First time
+New node time:  4294967295
+Old node time:  1847
+Iter: Daly_City. First time
+TEMP: 0x5633437e2610
+TEMP: Waterloo
+New node time:  254
+Old node time:  1303
+New node time:  731
+Old node time:  1303
+TEMP: 0x5633437eb030
+TEMP: Port_Orange
+New node time:  4294967295
+Old node time:  1042
+Iter: Pensacola. First time
+New node time:  1154
+Old node time:  1042
+New node time:  530
+Old node time:  1042
+New node time:  4294967295
+Old node time:  1042
+Iter: Columbus. First time
+TEMP: 0x5633437e6990
+TEMP: Coral_Springs
+New node time:  4294967295
+Old node time:  1112
+TEMP: 0x5633437e8d80
+TEMP: Fort_Worth
+TEMP: 0x5633437e47b0
+TEMP: Reno
+TEMP: 0x5633437e95d0
+TEMP: Greensboro
+New node time:  2138
+Old node time:  2136
+TEMP: 0x5633437e4320
+TEMP: Bakersfield
+New node time:  2009
+Old node time:  456
+This new flight arrives sooner. Old Flight Westminster. Olf flight time: 2009
+New Flight time: 1011
+Current flight's time post operation:  1011
+TEMP: 0x5633437e7640
+TEMP: Macon
+New node time:  1040
+Old node time:  57
+New node time:  4294967295
+Old node time:  57
+Iter: Beaumont. First time
+New node time:  4294967295
+Old node time:  57
+Iter: Syracuse. First time
+TEMP: 0x5633437e4ec0
+TEMP: Westminster
+New node time:  811
+Old node time:  1011
+TEMP: 0x5633437ee990
+TEMP: Fitchburg
+New node time:  4294967295
+Old node time:  811
+Iter: Brownsville. First time
+New node time:  1348
+Old node time:  811
+TEMP: 0x5633437df4b0
+TEMP: Fayetteville
+TEMP: 0x5633437e6450
+TEMP: Grayslake
+New node time:  853
+Old node time:  2013
+New node time:  1418
+Old node time:  2013
+TEMP: 0x5633437e8470
+TEMP: New_York_City
+New node time:  955
+Old node time:  2038
+New node time:  4294967295
+Old node time:  2038
+TEMP: 0x5633437e9fa0
+TEMP: Abilene
+New node time:  4294967295
+Old node time:  955
+Iter: Leominster. First time
+New node time:  1402
+Old node time:  955
+New node time:  1313
+Old node time:  955
+New node time:  914
+Old node time:  955
+New node time:  1042
+Old node time:  955
+TEMP: 0x5633437e98e0
+TEMP: Indianapolis
+New node time:  4294967295
+Old node time:  1702
+Iter: Kennewick. First time
+New node time:  4294967295
+Old node time:  1702
+Iter: Orlando. First time
+TEMP: 0x5633437ed2d0
+TEMP: Wichita
+TEMP: 0x5633437eea70
+TEMP: Grand_Prairie
+New node time:  1915
+Old node time:  2108
+New node time:  4294967295
+Old node time:  2108
+Iter: Buffalo. First time
+New node time:  459
+Old node time:  2108
+TEMP: 0x5633437e2e90
+TEMP: Murfreesboro
+New node time:  1605
+Old node time:  949
+New node time:  2135
+Old node time:  949
+TEMP: 0x5633437ed110
+TEMP: Topeka
+New node time:  2013
+Old node time:  1118
+TEMP: 0x5633437e62b0
+TEMP: Fresno
+New node time:  4294967295
+Old node time:  1030
+Iter: Nashua. First time
+New node time:  254
+Old node time:  1030
+New node time:  1503
+Old node time:  1030
+TEMP: 0x5633437dfe00
+TEMP: College_Station
+New node time:  250
+Old node time:  853
+New node time:  4294967295
+Old node time:  853
+Iter: Victorville. First time
+New node time:  4294967295
+Old node time:  853
+Iter: Pueblo. First time
+TEMP: 0x5633437e11a0
+TEMP: Norman
+New node time:  4294967295
+Old node time:  644
+Iter: Salem. First time
+New node time:  4294967295
+Old node time:  644
+Iter: Pittsburgh. First time
+New node time:  1540
+Old node time:  644
+TEMP: 0x5633437e0e80
+TEMP: Poughkeepsie
+New node time:  4294967295
+Old node time:  2
+New node time:  1522
+Old node time:  2
+New node time:  747
+Old node time:  2
+TEMP: 0x5633437e0620
+TEMP: Daly_City
+New node time:  4294967295
+Old node time:  945
+Iter: Hialeah. First time
+New node time:  1605
+Old node time:  945
+TEMP: 0x5633437dfee0
+TEMP: Pensacola
+New node time:  4294967295
+Old node time:  341
+Iter: Torrance. First time
+New node time:  928
+Old node time:  341
+TEMP: 0x5633437eb760
+TEMP: Columbus
+New node time:  1702
+Old node time:  2359
+New node time:  955
+Old node time:  2359
+TEMP: 0x5633437e4ec0
+TEMP: Westminster
+New node time:  811
+Old node time:  1011
+TEMP: 0x5633437e6210
+TEMP: Beaumont
+New node time:  4294967295
+Old node time:  2135
+Iter: Houston. First time
+New node time:  4294967295
+Old node time:  2135
+Iter: Gastonia. First time
+New node time:  4294967295
+Old node time:  2135
+Iter: Lincoln. First time
+New node time:  1030
+Old node time:  2135
+TEMP: 0x5633437e76e0
+TEMP: Syracuse
+New node time:  2137
+Old node time:  2356
+TEMP: 0x5633437e0ce0
+TEMP: Brownsville
+New node time:  4294967295
+Old node time:  1915
+Iter: Las_Cruces. First time
+New node time:  4294967295
+Old node time:  1915
+Iter: Philadelphia. First time
+TEMP: 0x5633437e27b0
+TEMP: Leominster
+New node time:  4294967295
+Old node time:  740
+Iter: Saint_Petersburg. First time
+New node time:  4294967295
+Old node time:  740
+Iter: Bel_Air. First time
+New node time:  1503
+Old node time:  740
+TEMP: 0x5633437e16e0
+TEMP: Kennewick
+New node time:  4294967295
+Old node time:  938
+Iter: Olympia. First time
+TEMP: 0x5633437e8e80
+TEMP: Orlando
+New node time:  4294967295
+Old node time:  254
+Iter: Shreveport. First time
+TEMP: 0x5633437ef4d0
+TEMP: Buffalo
+New node time:  4294967295
+Old node time:  1734
+Iter: Billings. First time
+New node time:  928
+Old node time:  1734
+New node time:  1116
+Old node time:  1734
+TEMP: 0x5633437e1bb0
+TEMP: Nashua
+New node time:  4294967295
+Old node time:  620
+Iter: Montgomery. First time
+TEMP: 0x5633437e89c0
+TEMP: Victorville
+New node time:  4294967295
+Old node time:  908
+Iter: Canton. First time
+New node time:  4294967295
+Old node time:  908
+Iter: Palm_Bay. First time
+New node time:  1410
+Old node time:  908
+New node time:  244
+Old node time:  908
+New node time:  4294967295
+Old node time:  908
+Iter: Yonkers. First time
+TEMP: 0x5633437e2a50
+TEMP: Pueblo
+New node time:  4294967295
+Old node time:  1341
+Iter: West_Covina. First time
+New node time:  2
+Old node time:  1341
+TEMP: 0x5633437eda00
+TEMP: Salem
+TEMP: 0x5633437e0b40
+TEMP: Pittsburgh
+New node time:  4294967295
+Old node time:  851
+Iter: Jefferson. First time
+New node time:  4294967295
+Old node time:  851
+Iter: Ocala. First time
+TEMP: 0x5633437edfd0
+TEMP: Hialeah
+TEMP: 0x5633437df410
+TEMP: Torrance
+New node time:  534
+Old node time:  1932
+New node time:  150
+Old node time:  1932
+TEMP: 0x5633437df650
+TEMP: Houston
+New node time:  37
+Old node time:  49
+New node time:  851
+Old node time:  49
+New node time:  847
+Old node time:  49
+New node time:  848
+Old node time:  49
+TEMP: 0x5633437e0120
+TEMP: Gastonia
+New node time:  2359
+Old node time:  2359
+New node time:  2358
+Old node time:  2359
+New node time:  4294967295
+Old node time:  2359
+Iter: San_Antonio. First time
+TEMP: 0x5633437e7060
+TEMP: Lincoln
+New node time:  459
+Old node time:  1626
+New node time:  1928
+Old node time:  1626
+TEMP: 0x5633437e6f80
+TEMP: Las_Cruces
+New node time:  4294967295
+Old node time:  523
+Iter: Omaha. First time
+New node time:  4294967295
+Old node time:  523
+New node time:  1923
+Old node time:  523
+New node time:  820
+Old node time:  523
+TEMP: 0x5633437e0d80
+TEMP: Philadelphia
+New node time:  440
+Old node time:  1752
+TEMP: 0x5633437e6eb0
+TEMP: Saint_Petersburg
+New node time:  4294967295
+Old node time:  1517
+Iter: Seattle. First time
+New node time:  523
+Old node time:  1517
+TEMP: 0x5633437e6d90
+TEMP: Bel_Air
+New node time:  1617
+Old node time:  1836
+New node time:  1530
+Old node time:  1836
+New node time:  4294967295
+Old node time:  1836
+TEMP: 0x5633437e2190
+TEMP: Olympia
+New node time:  1052
+Old node time:  759
+New node time:  4294967295
+Old node time:  759
+Iter: Merced. First time
+TEMP: 0x5633437e7d80
+TEMP: Shreveport
+New node time:  1708
+Old node time:  534
+TEMP: 0x5633437e0700
+TEMP: Billings
+New node time:  820
+Old node time:  2359
+New node time:  244
+Old node time:  2359
+New node time:  747
+Old node time:  2359
+TEMP: 0x5633437efe00
+TEMP: Montgomery
+New node time:  1116
+Old node time:  611
+TEMP: 0x5633437f11e0
+TEMP: Canton
+TEMP: 0x5633437e4e20
+TEMP: Palm_Bay
+New node time:  1011
+Old node time:  1917
+TEMP: 0x5633437e6a90
+TEMP: Yonkers
+New node time:  644
+Old node time:  2359
+TEMP: 0x5633437ee190
+TEMP: West_Covina
+New node time:  2359
+Old node time:  1321
+TEMP: 0x5633437ef830
+TEMP: Jefferson
+TEMP: 0x5633437e0be0
+TEMP: Ocala
+New node time:  759
+Old node time:  2256
+TEMP: 0x5633437dfb50
+TEMP: San_Antonio
+New node time:  1402
+Old node time:  935
+New node time:  4294967295
+Old node time:  935
+Iter: Visalia. First time
+New node time:  4294967295
+Old node time:  935
+TEMP: 0x5633437eddc0
+TEMP: Omaha
+New node time:  1920
+Old node time:  124
+New node time:  4294967295
+Old node time:  124
+Iter: Baton_Rouge. First time
+New node time:  16
+Old node time:  124
+TEMP: 0x5633437e8550
+TEMP: Seattle
+New node time:  4294967295
+Old node time:  9
+Iter: Oakland. First time
+New node time:  1923
+Old node time:  9
+New node time:  1705
+Old node time:  9
+TEMP: 0x5633437e2390
+TEMP: Merced
+New node time:  2359
+Old node time:  916
+TEMP: 0x5633437edb80
+TEMP: Visalia
+TEMP: 0x5633437e17e0
+TEMP: Baton_Rouge
+New node time:  1621
+Old node time:  40
+New node time:  4294967295
+Old node time:  40
+Iter: Elkhart. First time
+New node time:  1854
+Old node time:  40
+TEMP: 0x5633437e2470
+TEMP: Oakland
+New node time:  4294967295
+Old node time:  824
+Iter: Marina. First time
+New node time:  2057
+Old node time:  824
+TEMP: 0x5633437ef280
+TEMP: Elkhart
+TEMP: 0x5633437e77e0
+TEMP: Marina
+Arrival city: Pomona
+Departing city: Lorain
+Temp2: Pomona. Temp2 arrival time: 1950
+Tracing Back: Pomona
+Tracing Back: Mesquite
+Tracing Back: Jacksonville
+Tracing Back LAST: Lorain
