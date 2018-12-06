@@ -65,11 +65,11 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
             }
         }
     }
-    std::cout << "Arrival city: " << arrival_city << std::endl;
-    std::cout << "Departing city: " << departure_city << std::endl;
+    //std::cout << "Arrival city: " << arrival_city << std::endl;
+    //std::cout << "Departing city: " << departure_city << std::endl;
     temp = getter[departure_city];
     temp2 = getter[arrival_city];
-    std::cout << "Total cost: $" << temp2->cost << std::endl;
+    std::cout << "Final arrival time: " << temp2->arrival <<  " Total cost: $" << temp2->cost << std::endl;
     std::stack<Node*> cities;
     while(temp2 != NULL){
         cities.push(temp2);
@@ -140,10 +140,8 @@ void expressSearch(std::unordered_map<std::string, Node*> &getter, std::string d
             }
         }
     }
-    std::cout << "Arrival city: " << arrival_city << std::endl;
-    std::cout << "Departing city: " << departure_city << std::endl;
     temp = getter[departure_city];
-    std::cout << "Arrival: " << temp2->Name << ". Arrival time: " << temp2->arrival << std::endl;
+    std::cout << "Final arrival time: " << temp2->arrival <<  " Total cost: $" << temp2->cost << std::endl;
     temp2 = getter[arrival_city];
     std::stack<Node*> cities;
     while(temp2 != NULL){
@@ -178,8 +176,6 @@ void cheapSearch(std::unordered_map<std::string, Node*> &getter, std::string dep
 
     while(!frontier.empty()){
         temp = frontier.front();
-        std::cout << "TEMP ADDR: " << temp << std::endl;
-        std::cout << "TEMP NAME: " << temp->Name << std::endl;
         temp->visited = 2;
         frontier.pop();
         for(unsigned int i = 0; i < temp->flights.size(); i++){
@@ -236,10 +232,8 @@ void cheapSearch(std::unordered_map<std::string, Node*> &getter, std::string dep
                 std::cout << "WTF" << std::endl;
         }
     }
-    std::cout << "Arrival city: " << arrival_city << std::endl;
-    std::cout << "Departing city: " << departure_city << std::endl;
     temp = getter[departure_city];
-    std::cout << "Arriving at " << temp2->Name << ". Arrival cost: " << temp2->cost << std::endl;
+    std::cout << "Final arrival time: " << temp2->arrival <<  " Total cost: $" << temp2->cost << std::endl;
     temp2 = getter[arrival_city];
     std::stack<Node*> cities;
     while(temp2 != NULL){
@@ -277,7 +271,6 @@ int main(int argc, char* argv[]){
     Node* temp_node;
     Flight* temp_flight;
     while(file >> departure_city >> arrival_city >> departure_time >> arrival_time >> temp_string){
-        std::cout << "Departure: " << departure_city << ". Arrival: " << arrival_city << std::endl;
         cost = std::stof(temp_string.substr(1,temp_string.size()));
         if(getter[departure_city] == NULL){
             temp_node = new Node(departure_city); 
@@ -287,7 +280,7 @@ int main(int argc, char* argv[]){
             temp_node = new Node(arrival_city); 
             getter[arrival_city] = temp_node;
         } temp_flight = new Flight( arrival_time,departure_time, cost, arrival_city);
-        std::cout <<departure_city <<  ". Arrival: " << temp_flight->arrival << std::endl;
+        std::cout <<"From " << departure_city << " to " << arrival_city << std::endl;
         temp_flight->destination_node = getter[arrival_city];
         getter[departure_city]->flights.push_back(temp_flight);
 
@@ -296,7 +289,6 @@ int main(int argc, char* argv[]){
     std::cin >> departure_city;
     std::cout << "Enter a destination city." << std::endl;
     std::cin >> arrival_city;
-    std::cout << "Departure:" << departure_city << ". Arrival city: " << arrival_city << std::endl;
     std::cout << "Enter the earliest acceptable departure time." << std::endl;
     std::cin >> departure_time;
     std::string inp;
@@ -322,6 +314,7 @@ int main(int argc, char* argv[]){
             var-> cost = 0;
             var-> prev = NULL;
         }
+        std::cout << "-------------------Return Flight-------------------" << std::endl;
         std::cout << "Enter a new departing time: " <<std::endl;
         std::cin >> departure_time;
         dept_time = setTime(departure_time);
@@ -335,6 +328,7 @@ int main(int argc, char* argv[]){
             i->second->arrival= (unsigned int) -1;
         }
         frontier.push(getter[arrival_city]);
+        std::cout << "-------------------Return Flight-------------------" << std::endl;
         std::cout << "Enter a new departing time: " <<std::endl;
         std::cin >> departure_time;
         dept_time = setTime(departure_time);
@@ -350,6 +344,7 @@ int main(int argc, char* argv[]){
             var-> cost = 0;
             var-> prev = NULL;
         }
+        std::cout << "-------------------Return Flight-------------------" << std::endl;
         std::cout << "Enter a new departing time: " <<std::endl;
         std::cin >> departure_time;
         dept_time = setTime(departure_time);
