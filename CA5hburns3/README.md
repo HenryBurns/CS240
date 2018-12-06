@@ -9,3 +9,11 @@ You will then be asked for the itinerary method you want to use ("any", "earlies
 After the first itinerary you will be asked for the earliest time at which you are willing to depart one more time.
 
 Then the program will terminate, and to run it again you must start from the beginning
+
+
+
+
+in.txt seems to work for my program and testinp.txt seems to work correctly for cost as well as test.
+
+Thanks for your help TA's/Lewis,
+I hope you having nice finals.

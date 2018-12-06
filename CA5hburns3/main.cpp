@@ -28,7 +28,7 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
                 //std::cout << "Entered K " << std::endl;
                 Node* iter = k; 
                 //Node iter = *((*i)->destination_node);
-                if(iter->visited < 1 && temp->flights[i]->departure >= dept_time){
+                if(iter->visited < 1){
                     //std::cout << "Entered next" << std::endl;
                     iter->visited = 1;
                     iter->prev = temp;
@@ -44,22 +44,9 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
                     //std::cout << "Current: " << iter->Name << std::endl;
                     //std::cout << "PREV: " << iter->prev->Name <<std::endl;
 
-                    if(iter->cost == 0){
-                        iter->cost = iter->prev->cost + temp->flights[i]->cost;
-                        //std::cout << "Prev cost name " << iter->prev->Name << std::endl;
-                    }
                     //else
                     //    iter->cost = std::min(iter->cost, iter->prev->cost + temp->flights[i]->cost);
                     //check if we hit the end
-                    if(iter->Name.compare(arrival_city) == 0){
-                        iter->prev = temp;
-                        iter->prev_flight = temp->flights[i];
-                        //std::cout << iter->prev->Name <<std::endl;
-                        //std::cout << "2 past " << iter->prev->prev->Name << std::endl;
-                        while(!frontier.empty())
-                            frontier.pop();
-                        break;
-                    }
                     frontier.push(k);
                 }
             }
@@ -193,7 +180,7 @@ void cheapSearch(std::unordered_map<std::string, Node*> &getter, std::string dep
                  * If the new node doesn't have a time yet, give it one
                  */
                 //std::cout << "Arrival: " << temp->arrival << ". Departure: " << temp->flights[i]->departure << std::endl;
-                if( temp->flights[i]->departure >= dept_time && (temp->flights[i]->departure >= temp->arrival || iter->visited == 0)){
+                if( temp->flights[i]->departure >= dept_time && temp->flights[i]->departure >= temp->arrival ){
                     //std::cout << "Current flight's cost:  " << temp->flights[i]->cost << std::endl;
                     //update everything
                     if(iter->visited == 0){
@@ -285,11 +272,11 @@ int main(int argc, char* argv[]){
         getter[departure_city]->flights.push_back(temp_flight);
 
     }
-    std::cout << "Enter a departure city." << std::endl;
+    std::cout << "\nEnter a departure city." << std::endl;
     std::cin >> departure_city;
-    std::cout << "Enter a destination city." << std::endl;
+    std::cout << "\nEnter a destination city." << std::endl;
     std::cin >> arrival_city;
-    std::cout << "Enter the earliest acceptable departure time." << std::endl;
+    std::cout << "\nEnter the earliest acceptable departure time." << std::endl;
     std::cin >> departure_time;
     std::string inp;
     std::string any = "any";
@@ -302,58 +289,67 @@ int main(int argc, char* argv[]){
         std::sort(i->second->flights.begin(), i->second->flights.end(), comp);
     }
 
-    std::cout << "Type either 'any', 'earliest', or 'cheapest'" << std::endl;
-    std::cin >> inp;
-    std::cin.ignore();
-    if(inp.compare(any) == 0){
-        anySearch( getter, departure_city, arrival_city, frontier, dept_time);
-        for(auto i = getter.begin(); i != getter.end(); ++i){
-            auto var = i->second;
-            var-> visited = 0;
-            var-> arrival = (unsigned int)-1;
-            var-> cost = 0;
-            var-> prev = NULL;
+    while(true){
+        std::cout << "\nType either 'any', 'earliest', or 'cheapest'" << std::endl;
+        std::cin >> inp;
+        std::cin.ignore();
+        if(inp.compare(any) == 0){
+            anySearch( getter, departure_city, arrival_city, frontier, dept_time);
+            for(auto i = getter.begin(); i != getter.end(); ++i){
+                auto var = i->second;
+                var-> visited = 0;
+                var-> arrival = (unsigned int)-1;
+                var-> cost = 0;
+                var-> prev = NULL;
+            }
+            std::cout << "\n-------------------Return Flight-------------------\n" << std::endl;
+            std::cout << "Enter a new departing time: " <<std::endl;
+            std::cin >> departure_time;
+            dept_time = setTime(departure_time);
+            anySearch( getter, arrival_city, departure_city, frontier, dept_time);
         }
-        std::cout << "-------------------Return Flight-------------------" << std::endl;
-        std::cout << "Enter a new departing time: " <<std::endl;
-        std::cin >> departure_time;
-        dept_time = setTime(departure_time);
-        anySearch( getter, arrival_city, departure_city, frontier, dept_time);
-    }
-    else if(inp.compare(Earliest)==0){
-        expressSearch(getter, departure_city, arrival_city, frontier, dept_time);//------------------------------------------------------------Earliest------------------------
-        for(auto i = getter.begin(); i != getter.end(); ++i){
-            i->second->visited = 0;
-            i->second->cost = 0;
-            i->second->arrival= (unsigned int) -1;
+        else if(inp.compare(Earliest)==0){
+            expressSearch(getter, departure_city, arrival_city, frontier, dept_time);//------------------------------------------------------------Earliest------------------------
+            for(auto i = getter.begin(); i != getter.end(); ++i){
+                i->second->visited = 0;
+                i->second->cost = 0;
+                i->second->arrival= (unsigned int) -1;
+            }
+            frontier.push(getter[arrival_city]);
+            std::cout << "\n-------------------Return Flight-------------------\n" << std::endl;
+            std::cout << "Enter a new departing time: " <<std::endl;
+            std::cin >> departure_time;
+            dept_time = setTime(departure_time);
+            expressSearch(getter, arrival_city, departure_city, frontier, dept_time);//------------------------------------------------------------Earliest------------------------
+            //-------------------------------------------------------------end of earliest---------------------------------------------
+        }else if(inp.compare(Least)==0){
+            std::cout << "Entered cheapest" << std::endl;
+            cheapSearch( getter, departure_city, arrival_city, frontier, dept_time);
+            for(auto i = getter.begin(); i != getter.end(); ++i){
+                auto var = i->second;
+                var-> visited = 0;
+                var-> arrival = (unsigned int)-1;
+                var-> cost = 0;
+                var-> prev = NULL;
+            }
+            std::cout << "\n-------------------Return Flight-------------------\n" << std::endl;
+            std::cout << "Enter a new departing time: " <<std::endl;
+            std::cin >> departure_time;
+            dept_time = setTime(departure_time);
+            std::cout << "Departure time: " << dept_time << std::endl;
+            cheapSearch( getter, arrival_city, departure_city, frontier, dept_time);
+            //TODO get the cheapest path
         }
-        frontier.push(getter[arrival_city]);
-        std::cout << "-------------------Return Flight-------------------" << std::endl;
-        std::cout << "Enter a new departing time: " <<std::endl;
-        std::cin >> departure_time;
-        dept_time = setTime(departure_time);
-        expressSearch(getter, arrival_city, departure_city, frontier, dept_time);//------------------------------------------------------------Earliest------------------------
-        //-------------------------------------------------------------end of earliest---------------------------------------------
-    }else if(inp.compare(Least)==0){
-        std::cout << "Entered cheapest" << std::endl;
-        cheapSearch( getter, departure_city, arrival_city, frontier, dept_time);
-        for(auto i = getter.begin(); i != getter.end(); ++i){
-            auto var = i->second;
-            var-> visited = 0;
-            var-> arrival = (unsigned int)-1;
-            var-> cost = 0;
-            var-> prev = NULL;
+        else{
+            std::cout << "Input was not formatted correctly." << std::endl;
         }
-        std::cout << "-------------------Return Flight-------------------" << std::endl;
-        std::cout << "Enter a new departing time: " <<std::endl;
-        std::cin >> departure_time;
-        dept_time = setTime(departure_time);
-        std::cout << "Departure time: " << dept_time << std::endl;
-        cheapSearch( getter, arrival_city, departure_city, frontier, dept_time);
-        //TODO get the cheapest path
-    }
-    else{
-        std::cout << "Input was not formatted correctly." << std::endl;
+        for(auto i = getter.begin(); i != getter.end(); ++i){
+                auto var = i->second;
+                var-> visited = 0;
+                var-> arrival = (unsigned int)-1;
+                var-> cost = 0;
+                var-> prev = NULL;
+        }
     }
     for(auto i = getter.begin(); i != getter.end(); ++i){
         if(i->second != NULL){
