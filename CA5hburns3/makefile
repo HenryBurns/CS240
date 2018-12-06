@@ -8,7 +8,7 @@ SOURCESHPP = $(wildcard *.hpp)
 OBJECTS = $(SOURCES:.cpp=.o)
  
 # Main target
-$(EXEC): $(SOURCES) $(SOURCESHPP) $(OBJECTS)
+$(EXEC): $(SOURCES) $(SOURCESHPP) $(OBJECTS) 
 	$(CC) $(CC_FLAGS) $(SOURCES) -o $(EXEC)
  
 # To remove generated files

@@ -4,6 +4,7 @@
 #include <string>
 #include <unordered_map>
 #include <queue>
+#include <stack>
 #include "node.hpp"
 
 Flight* comp(Flight* f1, Flight* f2){
@@ -16,7 +17,6 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
     frontier.push(getter[departure_city]);
     Node* temp2 = getter[arrival_city];
     Node* temp  = getter[departure_city];
-    bool trap = true;
     std::cout << "Entered any" << std::endl;
     while(!frontier.empty()){
         temp = frontier.front();
@@ -33,6 +33,7 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
                     iter->visited = 1;
                     iter->prev = temp;
                     iter->cost = iter->prev->cost + temp->flights[i]->cost; 
+                    iter->prev_flight = temp->flights[i];
 
                     //if(iter->prev != temp)
                     //update everything
@@ -52,6 +53,7 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
                     //check if we hit the end
                     if(iter->Name.compare(arrival_city) == 0){
                         iter->prev = temp;
+                        iter->prev_flight = temp->flights[i];
                         //std::cout << iter->prev->Name <<std::endl;
                         //std::cout << "2 past " << iter->prev->prev->Name << std::endl;
                         while(!frontier.empty())
@@ -68,17 +70,26 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
     temp = getter[departure_city];
     temp2 = getter[arrival_city];
     std::cout << "Total cost: $" << temp2->cost << std::endl;
-    while(temp != temp2){
-        if(temp2 == NULL){
-            std::cout << "This node cannot be reached" << std::endl;
-            trap = false;
-            break;
-        }
-        std::cout << "Tracing Back: " << temp2->Name << std::endl;
+    std::stack<Node*> cities;
+    while(temp2 != NULL){
+        cities.push(temp2);
+        //std::cout << "This node cannot be reached" << std::endl;
         temp2 = temp2->prev;
     }
-    if(trap)
-        std::cout << "Tracing Back LAST: " << temp2->Name << std::endl;
+    //std::cout << "Tracing Back: " << temp2->Name << std::endl;
+
+    if(cities.size() == 1)
+        std::cout << "This city could not be reached. " << std::endl;
+    else{
+        while(!cities.empty()){
+            Node* temp = cities.top();
+            if(temp->prev != NULL){
+                std::cout << "\nFlying to "<< temp->prev->Name << " from " << temp->Name << std::endl;
+                printFlight(temp->prev_flight);
+            }
+            cities.pop();
+        }
+    }
     //-----------------------------------------------------------------any on the return--------------------------------------
     return;
 }
@@ -86,7 +97,6 @@ void anySearch(std::unordered_map<std::string, Node*> &getter, std::string depar
 void expressSearch(std::unordered_map<std::string, Node*> &getter, std::string departure_city, std::string arrival_city, std::queue<Node*> &frontier, unsigned int dept_time){//------------------------------------------------------------Earliest------------------------
     //TODO find the earliest path
     //std::cout << "Entered earliest" << std::endl;
-    bool trap = true;
     frontier.push(getter[departure_city]);
     Node* temp2 = getter[arrival_city];
     Node* temp  = getter[departure_city];
@@ -101,7 +111,6 @@ void expressSearch(std::unordered_map<std::string, Node*> &getter, std::string d
             Node* k = getter[temp->flights[i]->destination];
             if(k != NULL){
                 Node* iter = k; 
-                //Node iter = *((*i)->destination_node);
                 //std::cout << "New node time:  " << iter->arrival << std::endl;
                 //std::cout << "Old node time:  " << temp->arrival << std::endl;
                 /*
@@ -109,37 +118,26 @@ void expressSearch(std::unordered_map<std::string, Node*> &getter, std::string d
                  * If it leaves before our mans is willing to depart, we cant take it.
                  * If the new node doesn't have a time yet, give it one
                  */
-                if( iter-> visited < 2 && temp->flights[i]->departure >= dept_time && (temp->flights[i]->departure >= temp->arrival || iter->visited == 0)){
+                if( iter-> visited < 2 && temp->flights[i]->departure >= dept_time && temp->flights[i]->departure >= temp->arrival){
                     //update everything
                     if(iter->visited == 0){
                         iter->visited = 1;
                         //std::cout << "Iter: " << iter->Name << ". " << "First time" << std::endl;
                         iter->arrival = temp->flights[i]->arrival;
                         iter->prev = temp;
+                        iter->prev_flight = temp->flights[i];
                         frontier.push(iter);
                     }
                     else if(iter->arrival > temp->flights[i]->arrival ){
                         //std::cout << "This new flight arrives sooner. Old Flight " << iter->Name << ". Olf flight time: " << iter->arrival << std::endl;
-                        //std::cout << "New Flight time: " <<  temp->flights[i]->arrival << std::endl;
-                        if(iter->arrival >  temp->flights[i]->arrival){
-                            iter->prev = temp;
-                            frontier.push(iter);
-                            iter->arrival = temp->flights[i]->arrival;
-                        }
+                        iter->prev = temp;
+                        iter->prev_flight = temp->flights[i];
+                        frontier.push(iter);
+                        iter->arrival = temp->flights[i]->arrival;
                         //std::cout << "Current flight's time post operation:  " << iter->arrival << std::endl;
                     }
-
-                    //if(iter->cost == 0){
-                    //    iter->cost = iter->prev->cost + temp->flights[i]->cost;
-                    //    std::cout << "Prev cost name " << iter->prev->Name << std::endl;
-                    //}
-                    //else
-                    //    iter->cost = std::min(iter->cost, iter->prev->cost + temp->flights[i]->cost);
-                    //check if we hit the end
                 }
             }
-            else 
-                std::cout << "WTF" << std::endl;
         }
     }
     std::cout << "Arrival city: " << arrival_city << std::endl;
@@ -147,24 +145,33 @@ void expressSearch(std::unordered_map<std::string, Node*> &getter, std::string d
     temp = getter[departure_city];
     std::cout << "Arrival: " << temp2->Name << ". Arrival time: " << temp2->arrival << std::endl;
     temp2 = getter[arrival_city];
-    while(temp != temp2){
-        if(temp2 == NULL){
-            std::cout << "This node cannot be reached" << std::endl;
-            trap = false;
-            break;
-        }
-        std::cout << "Tracing Back: " << temp2->Name << std::endl;
+    std::stack<Node*> cities;
+    while(temp2 != NULL){
+        cities.push(temp2);
+        //std::cout << "This node cannot be reached" << std::endl;
         temp2 = temp2->prev;
     }
-    if(trap)
-        std::cout << "Tracing Back LAST: " << temp2->Name << std::endl;
+    //std::cout << "Tracing Back: " << temp2->Name << std::endl;
+    if(cities.size() == 1)
+        std::cout << "This city could not be reached. " << std::endl;
+    else{
+        while(!cities.empty()){
+            Node* temp = cities.top();
+            if(temp->prev != NULL){
+                std::cout << "\nFlying from " << temp->prev->Name << " to "<< temp->Name << std::endl;
+                printFlight(temp->prev_flight);
+                std::cout << "Previous node arrival time: " << temp->prev->arrival <<  std::endl;
+                std::cout << "Current node arrival time: " << temp->arrival << "\n" << std::endl;
+            }
+            cities.pop();
+        }
+    }
     return;
 }
 
 void cheapSearch(std::unordered_map<std::string, Node*> &getter, std::string departure_city, std::string arrival_city, std::queue<Node*> &frontier, unsigned int dept_time){//------------------------------------------------------------Earliest------------------------
     bool stop = false;
     //std::cout << "Entered cheapest" << std::endl;
-    bool trap = true;
     frontier.push(getter[departure_city]);
     Node* temp2 = getter[arrival_city];
     Node* temp  = getter[departure_city];
@@ -195,6 +202,7 @@ void cheapSearch(std::unordered_map<std::string, Node*> &getter, std::string dep
                     //update everything
                     if(iter->visited == 0){
                         iter->prev = temp;
+                        iter->prev_flight = temp->flights[i];
                         iter->cost = temp->cost + temp->flights[i]->cost;
                         //std::cout << "Prev cost name " << iter->prev->Name << std::endl;
                         iter->visited = 1;
@@ -217,6 +225,7 @@ void cheapSearch(std::unordered_map<std::string, Node*> &getter, std::string dep
                                 frontier.push(iter);
                             iter-> cost = (temp->cost + temp->flights[i]->cost);
                             //std::cout << "Updating prev due to cost" << std::endl;
+                            iter->prev_flight = temp->flights[i];
                             iter->prev = temp;
                         }
                     }
@@ -232,18 +241,27 @@ void cheapSearch(std::unordered_map<std::string, Node*> &getter, std::string dep
     temp = getter[departure_city];
     std::cout << "Arriving at " << temp2->Name << ". Arrival cost: " << temp2->cost << std::endl;
     temp2 = getter[arrival_city];
-    while(temp != temp2){
-        if(temp2 == NULL){
-            std::cout << "This node cannot be reached" << std::endl;
-            trap = false;
-            break;
-        }
-        std::cout << "Tracing Back: " << temp2->Name << std::endl;
+    std::stack<Node*> cities;
+    while(temp2 != NULL){
+        cities.push(temp2);
+        //std::cout << "This node cannot be reached" << std::endl;
         temp2 = temp2->prev;
     }
-    if(trap)
-        std::cout << "Tracing Back LAST: " << temp2->Name << std::endl;
-    return;
+    //std::cout << "Tracing Back: " << temp2->Name << std::endl;
+
+    if(cities.size() == 1)
+        std::cout << "This city could not be reached. " << std::endl;
+    else{
+        while(!cities.empty()){
+            Node* temp = cities.top();
+            if(temp->prev != NULL){
+                std::cout << "\nFlying to "<< temp->prev->Name << " from " << temp->Name << std::endl;
+                printFlight(temp->prev_flight);
+            }
+            cities.pop();
+        }
+    }
+   return;
 }
 int main(int argc, char* argv[]){
     std::ifstream file;
@@ -281,12 +299,12 @@ int main(int argc, char* argv[]){
     std::cout << "Departure:" << departure_city << ". Arrival city: " << arrival_city << std::endl;
     std::cout << "Enter the earliest acceptable departure time." << std::endl;
     std::cin >> departure_time;
-    unsigned int dept_time = setTime(departure_time);
     std::string inp;
     std::string any = "any";
     std::string Earliest = "earliest";
     std::string Least = "cheapest";
     std::queue<Node*> frontier;
+    unsigned int dept_time = setTime(departure_time);
     //Node* temp  = getter[departure_city];
     for(auto i = getter.begin(); i != getter.end(); ++i){
         std::sort(i->second->flights.begin(), i->second->flights.end(), comp);
